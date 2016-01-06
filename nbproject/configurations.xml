@@ -4,7 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>build/Characters/Character.h</itemPath>
+      <itemPath>Characters/Character.h</itemPath>
       <itemPath>Map.h</itemPath>
       <itemPath>Characters/SkillExpClass.h</itemPath>
       <itemPath>WeaponSkillExpClass.h</itemPath>
@@ -16,10 +16,10 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>build/Characters/Character.cpp</itemPath>
+      <itemPath>Characters/Character.cpp</itemPath>
       <itemPath>Map.cpp</itemPath>
-      <itemPath>build/Characters/SkillExpClass.cpp</itemPath>
-      <itemPath>build/Characters/WeaponSkillExpClass.cpp</itemPath>
+      <itemPath>Characters/SkillExpClass.cpp</itemPath>
+      <itemPath>Characters/WeaponSkillExpClass.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -47,24 +47,21 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Characters/Character.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Characters/Character.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Characters/SkillExpClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Characters/SkillExpClass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Characters/WeaponSkillExpClass.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Map.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Map.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WeaponSkillExpClass.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="build/Characters/Character.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="build/Characters/Character.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="build/Characters/SkillExpClass.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="build/Characters/WeaponSkillExpClass.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -89,24 +86,21 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Characters/Character.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Characters/Character.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Characters/SkillExpClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Characters/SkillExpClass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Characters/WeaponSkillExpClass.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Map.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Map.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WeaponSkillExpClass.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="build/Characters/Character.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="build/Characters/Character.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="build/Characters/SkillExpClass.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="build/Characters/WeaponSkillExpClass.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
