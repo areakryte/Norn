@@ -22,7 +22,7 @@ public:
     virtual void SetTriggered(){};
     virtual void SetTriggerChance(){};
     
-private:
+protected:
     bool triggered;
     int triggerChance;
     
