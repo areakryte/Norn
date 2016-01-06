@@ -11,14 +11,18 @@
  * Created on January 6, 2016, 3:51 PM
  */
 
+#include "Event.h"
 #include "DialougeEvent.h"
 
 DialougeEvent::DialougeEvent() {
+    
 }
 
 DialougeEvent::DialougeEvent(const DialougeEvent& orig) {
+    
 }
 
 DialougeEvent::~DialougeEvent() {
+    
 }
 
