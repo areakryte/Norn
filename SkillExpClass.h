@@ -22,7 +22,7 @@ public:
     SkillExpClass();
     SkillExpClass(const SkillExpClass& orig);
     virtual ~SkillExpClass();
-    virtual void SkillExpGain(int expGain);
+    virtual void SkillExpGain(unsigned int expGain);
     void SkillLevelUp();
     void DisplaySkillProgress();
     virtual int SkillEffect(){};

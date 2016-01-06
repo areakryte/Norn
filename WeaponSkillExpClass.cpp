@@ -30,7 +30,7 @@ WeaponSkillExpClass::~WeaponSkillExpClass() {
     
 }
 
-int WeaponSkillExpClass::SkillEffect( ){
+int WeaponSkillExpClass::SkillEffect(){
     return 0;
 }
 

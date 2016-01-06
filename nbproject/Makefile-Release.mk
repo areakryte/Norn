@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Character.o \
 	${OBJECTDIR}/SkillExpClass.o \
 	${OBJECTDIR}/WeaponSkillExpClass.o \
 	${OBJECTDIR}/main.o
@@ -63,6 +64,11 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/norn.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/norn ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/Character.o: Character.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Character.o Character.cpp
 
 ${OBJECTDIR}/SkillExpClass.o: SkillExpClass.cpp 
 	${MKDIR} -p ${OBJECTDIR}

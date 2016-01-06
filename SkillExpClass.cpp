@@ -28,12 +28,12 @@ SkillExpClass::~SkillExpClass() {
     
 }
 
-void SkillExpClass::SkillExpGain(int expGain) {
+void SkillExpClass::SkillExpGain(unsigned int expGain) {
     totalExp += expGain;
     SkillExpClass::SkillLevelUp();
 }
 
-    void SkillExpClass::SkillLevelUp() {
+void SkillExpClass::SkillLevelUp() {
         if (totalExp >= 750) {
             levelCount = 5;
         }
