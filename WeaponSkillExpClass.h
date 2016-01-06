@@ -23,8 +23,6 @@ public:
     int SkillEffectModifier();
     std::string GetSkillName();
     std::string GetSkillDescription();
-    void SetSkillName();
-    void SetSkillDescription();
     int SkillFinalResult();
     
 private:

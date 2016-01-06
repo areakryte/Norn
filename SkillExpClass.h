@@ -12,6 +12,7 @@
  */
 #include <string>
 #include <cstdlib>
+#include <iostream>
 
 #ifndef SKILLEXPCLASS_H
 #define SKILLEXPCLASS_H
@@ -22,17 +23,17 @@ public:
     SkillExpClass(const SkillExpClass& orig);
     virtual ~SkillExpClass();
     int SkillExpGain(int expGain);
-    int SkillLevelUp();
+    void SkillLevelUp();
+    void DisplaySkillProgress();
     virtual int SkillEffect(){};
     virtual int SkillEffectModifier(){};
     virtual std::string GetSkillName(){};
     virtual std::string GetSkillDescription(){};
-    virtual void SetSkillName(){};
-    virtual void SetSKillDescription(){};
     virtual int SkillFinalResult(){};
     
 protected:
     unsigned int expCount;
+    unsigned int totalExp;
     unsigned int levelCount;
     unsigned int levelCap;
     std::string skillName;

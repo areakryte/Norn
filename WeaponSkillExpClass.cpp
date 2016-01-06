@@ -16,7 +16,12 @@
 #include "WeaponSkillExpClass.h"
 
 WeaponSkillExpClass::WeaponSkillExpClass() {
-    SkillExpClass();
+    expCount = 0;
+    totalExp = 0;
+    levelCount = 0;
+    levelCap = 5;
+    skillName = "Weapon Mastery";
+    skillDescription = "Skill with weapons";
 }
 
 WeaponSkillExpClass::WeaponSkillExpClass(const WeaponSkillExpClass& orig) {
@@ -41,14 +46,6 @@ std::string WeaponSkillExpClass::GetSkillName() {
 
 std::string WeaponSkillExpClass::GetSkillDescription() {
     return skillDescription;
-}
-
-void WeaponSkillExpClass::SetSkillName() {
-    
-}
-
-void WeaponSkillExpClass::SetSkillDescription() {
-    
 }
 
 int WeaponSkillExpClass::SkillFinalResult() {
