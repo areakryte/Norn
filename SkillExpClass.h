@@ -22,7 +22,7 @@ public:
     SkillExpClass();
     SkillExpClass(const SkillExpClass& orig);
     virtual ~SkillExpClass();
-    int SkillExpGain(int expGain);
+    virtual void SkillExpGain(int expGain);
     void SkillLevelUp();
     void DisplaySkillProgress();
     virtual int SkillEffect(){};
@@ -32,10 +32,8 @@ public:
     virtual int SkillFinalResult(){};
     
 protected:
-    unsigned int expCount;
     unsigned int totalExp;
     unsigned int levelCount;
-    unsigned int levelCap;
     std::string skillName;
     std::string skillDescription;
 };

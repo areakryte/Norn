@@ -16,10 +16,8 @@
 #include "WeaponSkillExpClass.h"
 
 WeaponSkillExpClass::WeaponSkillExpClass() {
-    expCount = 0;
     totalExp = 0;
     levelCount = 0;
-    levelCap = 5;
     skillName = "Weapon Mastery";
     skillDescription = "Skill with weapons";
 }
