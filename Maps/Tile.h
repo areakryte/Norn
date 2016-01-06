@@ -17,11 +17,15 @@
 //WARNING: Scoped enums only available with -std=c++11 or -std=gnu++11
 namespace TerrainType {
     enum class Terrain {
+        Default,
         Dirt,
-        Rocky,
+        Mountain,
         Grass,
         Stone,
-        Wood,
+        Forest,
+        Swamp,
+        Desert,
+        Object,
     };
 }
 
@@ -32,7 +36,7 @@ public:
     Tile();
     Tile(const Tile& orig);
     virtual ~Tile();
-    virtual void Event(){};
+    virtual void TriggerEvent(){};
     virtual void SetTerraianType(){};
     virtual void SetMovementType(){};
     

@@ -5,6 +5,7 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>Characters/Character.h</itemPath>
+      <itemPath>Maps/Event.h</itemPath>
       <itemPath>Maps/Map.h</itemPath>
       <itemPath>Characters/SkillExpClass.h</itemPath>
       <itemPath>Maps/Tile.h</itemPath>
@@ -18,6 +19,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Characters/Character.cpp</itemPath>
+      <itemPath>Maps/Event.cpp</itemPath>
       <itemPath>Maps/Map.cpp</itemPath>
       <itemPath>Characters/SkillExpClass.cpp</itemPath>
       <itemPath>Maps/Tile.cpp</itemPath>
@@ -58,6 +60,10 @@
       <item path="Characters/SkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Characters/WeaponSkillExpClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Maps/Event.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Maps/Event.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Maps/Map.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -101,6 +107,10 @@
       <item path="Characters/SkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Characters/WeaponSkillExpClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Maps/Event.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Maps/Event.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Maps/Map.cpp" ex="false" tool="1" flavor2="0">
       </item>
