@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Character.o \
+	${OBJECTDIR}/Map.o \
 	${OBJECTDIR}/SkillExpClass.o \
 	${OBJECTDIR}/WeaponSkillExpClass.o \
 	${OBJECTDIR}/main.o
@@ -69,6 +70,11 @@ ${OBJECTDIR}/Character.o: Character.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Character.o Character.cpp
+
+${OBJECTDIR}/Map.o: Map.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Map.o Map.cpp
 
 ${OBJECTDIR}/SkillExpClass.o: SkillExpClass.cpp 
 	${MKDIR} -p ${OBJECTDIR}
