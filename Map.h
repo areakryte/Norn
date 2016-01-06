@@ -22,7 +22,7 @@ public:
     Map(const Map& orig);
     virtual ~Map();
     
-private:
+protected:
 
 };
 
