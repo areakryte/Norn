@@ -23,7 +23,7 @@ public:
     virtual ~Map();
     
 protected:
-
+    
 };
 
 #endif /* MAP_H */

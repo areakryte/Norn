@@ -5,9 +5,9 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>Characters/Character.h</itemPath>
-      <itemPath>Map.h</itemPath>
+      <itemPath>Maps/Map.h</itemPath>
       <itemPath>Characters/SkillExpClass.h</itemPath>
-      <itemPath>Tile.h</itemPath>
+      <itemPath>Maps/Tile.h</itemPath>
       <itemPath>WeaponSkillExpClass.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -18,9 +18,9 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Characters/Character.cpp</itemPath>
-      <itemPath>Map.cpp</itemPath>
+      <itemPath>Maps/Map.cpp</itemPath>
       <itemPath>Characters/SkillExpClass.cpp</itemPath>
-      <itemPath>Tile.cpp</itemPath>
+      <itemPath>Maps/Tile.cpp</itemPath>
       <itemPath>Characters/WeaponSkillExpClass.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -59,13 +59,13 @@
       </item>
       <item path="Characters/WeaponSkillExpClass.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Map.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Maps/Map.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Map.h" ex="false" tool="3" flavor2="0">
+      <item path="Maps/Map.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Tile.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Maps/Tile.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Tile.h" ex="false" tool="3" flavor2="0">
+      <item path="Maps/Tile.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WeaponSkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -102,13 +102,13 @@
       </item>
       <item path="Characters/WeaponSkillExpClass.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Map.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Maps/Map.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Map.h" ex="false" tool="3" flavor2="0">
+      <item path="Maps/Map.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Tile.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Maps/Tile.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Tile.h" ex="false" tool="3" flavor2="0">
+      <item path="Maps/Tile.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WeaponSkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>

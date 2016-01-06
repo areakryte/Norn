@@ -38,8 +38,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/Characters/Character.o \
 	${OBJECTDIR}/Characters/SkillExpClass.o \
 	${OBJECTDIR}/Characters/WeaponSkillExpClass.o \
-	${OBJECTDIR}/Map.o \
-	${OBJECTDIR}/Tile.o \
+	${OBJECTDIR}/Maps/Map.o \
+	${OBJECTDIR}/Maps/Tile.o \
 	${OBJECTDIR}/main.o
 
 
@@ -82,15 +82,15 @@ ${OBJECTDIR}/Characters/WeaponSkillExpClass.o: Characters/WeaponSkillExpClass.cp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/WeaponSkillExpClass.o Characters/WeaponSkillExpClass.cpp
 
-${OBJECTDIR}/Map.o: Map.cpp 
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/Maps/Map.o: Maps/Map.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Maps
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Map.o Map.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Maps/Map.o Maps/Map.cpp
 
-${OBJECTDIR}/Tile.o: Tile.cpp 
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/Maps/Tile.o: Maps/Tile.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Maps
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tile.o Tile.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Maps/Tile.o Maps/Tile.cpp
 
 ${OBJECTDIR}/main.o: main.cpp 
 	${MKDIR} -p ${OBJECTDIR}
