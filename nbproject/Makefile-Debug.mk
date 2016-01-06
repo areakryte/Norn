@@ -38,7 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Characters/Character.o \
 	${OBJECTDIR}/Characters/SkillExpClass.o \
 	${OBJECTDIR}/Characters/WeaponSkillExpClass.o \
-	${OBJECTDIR}/Maps/Event.o \
+	${OBJECTDIR}/Events/Event.o \
 	${OBJECTDIR}/Maps/Map.o \
 	${OBJECTDIR}/Maps/Tile.o \
 	${OBJECTDIR}/main.o
@@ -83,10 +83,10 @@ ${OBJECTDIR}/Characters/WeaponSkillExpClass.o: Characters/WeaponSkillExpClass.cp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/WeaponSkillExpClass.o Characters/WeaponSkillExpClass.cpp
 
-${OBJECTDIR}/Maps/Event.o: Maps/Event.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Maps
+${OBJECTDIR}/Events/Event.o: Events/Event.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Events
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Maps/Event.o Maps/Event.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Events/Event.o Events/Event.cpp
 
 ${OBJECTDIR}/Maps/Map.o: Maps/Map.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Maps
