@@ -23,15 +23,15 @@
  */
 int main(int argc, char** argv) {
 
-    WeaponSkillExpClass wskill;
-    
-    std::cout << wskill.GetSkillName() << "\n";
-    std::cout << wskill.GetSkillDescription() << "\n";
-    wskill.DisplaySkillProgress();
-    wskill.SkillExpGain(50);
-    wskill.DisplaySkillProgress();
-    wskill.SkillExpGain(100);
-    wskill.DisplaySkillProgress();
+    //Skill class tests
+//    WeaponSkillExpClass wskill;
+//    std::cout << wskill.GetSkillName() << "\n";
+//    std::cout << wskill.GetSkillDescription() << "\n";
+//    wskill.DisplaySkillProgress();
+//    wskill.SkillExpGain(50);
+//    wskill.DisplaySkillProgress();
+//    wskill.SkillExpGain(100);
+//    wskill.DisplaySkillProgress();
     
     return 0;
 }

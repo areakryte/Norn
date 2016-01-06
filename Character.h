@@ -10,6 +10,7 @@
  *
  * Created on January 6, 2016, 9:28 AM
  */
+#include <string>
 
 #ifndef CHARACTER_H
 #define CHARACTER_H
@@ -19,8 +20,19 @@ public:
     Character();
     Character(const Character& orig);
     virtual ~Character();
-private:
-
+    virtual std::string DisplaySkills(){};
+    virtual std::string DisplayStats(){};
+    
+protected:
+    std::string characterName;
+    std::string characterDescription;
+    unsigned int strength;
+    unsigned int dexterity;
+    unsigned int intelligence;
+    unsigned int constitution;
+    unsigned int agility;
+    unsigned int wisdom;
+    unsigned int luck;
 };
 
 #endif /* CHARACTER_H */
