@@ -1,6 +1,7 @@
-build/Debug/Cygwin-Windows/main.o: main.cpp SkillExpClass.h \
- WeaponSkillExpClass.h
+build/Debug/Cygwin-Windows/main.o: main.cpp \
+ C:\Users\David\Documents\NetBeansProjects\Norn\Characters\SkillExpClass.h \
+ C:\Users\David\Documents\NetBeansProjects\Norn\Characters\WeaponSkillExpClass.h
 
-SkillExpClass.h:
+C:\Users\David\Documents\NetBeansProjects\Norn\Characters\SkillExpClass.h:
 
-WeaponSkillExpClass.h:
+C:\Users\David\Documents\NetBeansProjects\Norn\Characters\WeaponSkillExpClass.h:

@@ -35,10 +35,10 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Character.o \
+	${OBJECTDIR}/Characters/Character.o \
+	${OBJECTDIR}/Characters/SkillExpClass.o \
+	${OBJECTDIR}/Characters/WeaponSkillExpClass.o \
 	${OBJECTDIR}/Map.o \
-	${OBJECTDIR}/SkillExpClass.o \
-	${OBJECTDIR}/WeaponSkillExpClass.o \
 	${OBJECTDIR}/main.o
 
 
@@ -66,25 +66,25 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/norn.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/norn ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/Character.o: Character.cpp 
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/Characters/Character.o: Characters/Character.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Characters
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Character.o Character.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/Character.o Characters/Character.cpp
+
+${OBJECTDIR}/Characters/SkillExpClass.o: Characters/SkillExpClass.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Characters
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/SkillExpClass.o Characters/SkillExpClass.cpp
+
+${OBJECTDIR}/Characters/WeaponSkillExpClass.o: Characters/WeaponSkillExpClass.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Characters
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/WeaponSkillExpClass.o Characters/WeaponSkillExpClass.cpp
 
 ${OBJECTDIR}/Map.o: Map.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Map.o Map.cpp
-
-${OBJECTDIR}/SkillExpClass.o: SkillExpClass.cpp 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/SkillExpClass.o SkillExpClass.cpp
-
-${OBJECTDIR}/WeaponSkillExpClass.o: WeaponSkillExpClass.cpp 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/WeaponSkillExpClass.o WeaponSkillExpClass.cpp
 
 ${OBJECTDIR}/main.o: main.cpp 
 	${MKDIR} -p ${OBJECTDIR}
