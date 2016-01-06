@@ -35,10 +35,10 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Characters/Character.o \
-	${OBJECTDIR}/Characters/SkillExpClass.o \
-	${OBJECTDIR}/Characters/WeaponSkillExpClass.o \
 	${OBJECTDIR}/Map.o \
+	${OBJECTDIR}/build/Characters/Character.o \
+	${OBJECTDIR}/build/Characters/SkillExpClass.o \
+	${OBJECTDIR}/build/Characters/WeaponSkillExpClass.o \
 	${OBJECTDIR}/main.o
 
 
@@ -66,25 +66,25 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/norn.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/norn ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/Characters/Character.o: Characters/Character.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Characters
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/Character.o Characters/Character.cpp
-
-${OBJECTDIR}/Characters/SkillExpClass.o: Characters/SkillExpClass.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Characters
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/SkillExpClass.o Characters/SkillExpClass.cpp
-
-${OBJECTDIR}/Characters/WeaponSkillExpClass.o: Characters/WeaponSkillExpClass.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Characters
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/WeaponSkillExpClass.o Characters/WeaponSkillExpClass.cpp
-
 ${OBJECTDIR}/Map.o: Map.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Map.o Map.cpp
+
+${OBJECTDIR}/build/Characters/Character.o: build/Characters/Character.cpp 
+	${MKDIR} -p ${OBJECTDIR}/build/Characters
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/build/Characters/Character.o build/Characters/Character.cpp
+
+${OBJECTDIR}/build/Characters/SkillExpClass.o: build/Characters/SkillExpClass.cpp 
+	${MKDIR} -p ${OBJECTDIR}/build/Characters
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/build/Characters/SkillExpClass.o build/Characters/SkillExpClass.cpp
+
+${OBJECTDIR}/build/Characters/WeaponSkillExpClass.o: build/Characters/WeaponSkillExpClass.cpp 
+	${MKDIR} -p ${OBJECTDIR}/build/Characters
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/build/Characters/WeaponSkillExpClass.o build/Characters/WeaponSkillExpClass.cpp
 
 ${OBJECTDIR}/main.o: main.cpp 
 	${MKDIR} -p ${OBJECTDIR}
