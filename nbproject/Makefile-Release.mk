@@ -44,6 +44,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Events/Event.o \
 	${OBJECTDIR}/Events/RandomCombatEvent.o \
 	${OBJECTDIR}/Events/TimedCombatEvent.o \
+	${OBJECTDIR}/Maps/CombatIcon.o \
 	${OBJECTDIR}/Maps/Icon.o \
 	${OBJECTDIR}/Maps/ItemIcon.o \
 	${OBJECTDIR}/Maps/Map.o \
@@ -120,6 +121,11 @@ ${OBJECTDIR}/Events/TimedCombatEvent.o: Events/TimedCombatEvent.cpp
 	${MKDIR} -p ${OBJECTDIR}/Events
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Events/TimedCombatEvent.o Events/TimedCombatEvent.cpp
+
+${OBJECTDIR}/Maps/CombatIcon.o: Maps/CombatIcon.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Maps
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Maps/CombatIcon.o Maps/CombatIcon.cpp
 
 ${OBJECTDIR}/Maps/Icon.o: Maps/Icon.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Maps
