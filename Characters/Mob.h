@@ -22,7 +22,7 @@ namespace MobPhenology {
 
 using namespace MobPhenology;
 
-class Mob {
+class Mob:public Character {
 public:
     Mob();
     Mob(const Mob& orig);

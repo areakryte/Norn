@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/Characters/Character.o \
 	${OBJECTDIR}/Characters/Mob.o \
+	${OBJECTDIR}/Characters/NonPlayerCharacter.o \
 	${OBJECTDIR}/Characters/SkillExpClass.o \
 	${OBJECTDIR}/Characters/WeaponSkillExpClass.o \
 	${OBJECTDIR}/Events/ChoiceEvent.o \
@@ -51,6 +52,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Maps/Map.o \
 	${OBJECTDIR}/Maps/PlayerIcon.o \
 	${OBJECTDIR}/Maps/Tile.o \
+	${OBJECTDIR}/PlayerCharacter.o \
 	${OBJECTDIR}/main.o
 
 
@@ -87,6 +89,11 @@ ${OBJECTDIR}/Characters/Mob.o: Characters/Mob.cpp
 	${MKDIR} -p ${OBJECTDIR}/Characters
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/Mob.o Characters/Mob.cpp
+
+${OBJECTDIR}/Characters/NonPlayerCharacter.o: Characters/NonPlayerCharacter.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Characters
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/NonPlayerCharacter.o Characters/NonPlayerCharacter.cpp
 
 ${OBJECTDIR}/Characters/SkillExpClass.o: Characters/SkillExpClass.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Characters
@@ -157,6 +164,11 @@ ${OBJECTDIR}/Maps/Tile.o: Maps/Tile.cpp
 	${MKDIR} -p ${OBJECTDIR}/Maps
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Maps/Tile.o Maps/Tile.cpp
+
+${OBJECTDIR}/PlayerCharacter.o: PlayerCharacter.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/PlayerCharacter.o PlayerCharacter.cpp
 
 ${OBJECTDIR}/main.o: main.cpp 
 	${MKDIR} -p ${OBJECTDIR}
