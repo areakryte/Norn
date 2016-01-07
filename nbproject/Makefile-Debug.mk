@@ -41,6 +41,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/Events/CombatEvent.o \
 	${OBJECTDIR}/Events/DialogueEvent.o \
 	${OBJECTDIR}/Events/Event.o \
+	${OBJECTDIR}/Events/RandomCombatEvent.o \
+	${OBJECTDIR}/Events/TimedCombatEvent.o \
 	${OBJECTDIR}/Maps/Map.o \
 	${OBJECTDIR}/Maps/Tile.o \
 	${OBJECTDIR}/main.o
@@ -99,6 +101,16 @@ ${OBJECTDIR}/Events/Event.o: Events/Event.cpp
 	${MKDIR} -p ${OBJECTDIR}/Events
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Events/Event.o Events/Event.cpp
+
+${OBJECTDIR}/Events/RandomCombatEvent.o: Events/RandomCombatEvent.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Events
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Events/RandomCombatEvent.o Events/RandomCombatEvent.cpp
+
+${OBJECTDIR}/Events/TimedCombatEvent.o: Events/TimedCombatEvent.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Events
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Events/TimedCombatEvent.o Events/TimedCombatEvent.cpp
 
 ${OBJECTDIR}/Maps/Map.o: Maps/Map.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Maps

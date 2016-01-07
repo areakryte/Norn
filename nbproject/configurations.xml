@@ -9,8 +9,10 @@
       <itemPath>Events/DialogueEvent.h</itemPath>
       <itemPath>Events/Event.h</itemPath>
       <itemPath>Maps/Map.h</itemPath>
+      <itemPath>Events/RandomCombatEvent.h</itemPath>
       <itemPath>Characters/SkillExpClass.h</itemPath>
       <itemPath>Maps/Tile.h</itemPath>
+      <itemPath>Events/TimedCombatEvent.h</itemPath>
       <itemPath>WeaponSkillExpClass.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -25,8 +27,10 @@
       <itemPath>Events/DialogueEvent.cpp</itemPath>
       <itemPath>Events/Event.cpp</itemPath>
       <itemPath>Maps/Map.cpp</itemPath>
+      <itemPath>Events/RandomCombatEvent.cpp</itemPath>
       <itemPath>Characters/SkillExpClass.cpp</itemPath>
       <itemPath>Maps/Tile.cpp</itemPath>
+      <itemPath>Events/TimedCombatEvent.cpp</itemPath>
       <itemPath>Characters/WeaponSkillExpClass.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -76,6 +80,14 @@
       <item path="Events/Event.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Events/Event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Events/RandomCombatEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Events/RandomCombatEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Events/TimedCombatEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Events/TimedCombatEvent.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Maps/Map.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -131,6 +143,14 @@
       <item path="Events/Event.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Events/Event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Events/RandomCombatEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Events/RandomCombatEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Events/TimedCombatEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Events/TimedCombatEvent.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Maps/Map.cpp" ex="false" tool="1" flavor2="0">
       </item>
