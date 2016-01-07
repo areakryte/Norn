@@ -14,7 +14,7 @@
 #include "Event.h"
 
 Event::Event() {
-    triggered = 1;
+    trigger = 1;
     triggerChance = 100;
 }
 

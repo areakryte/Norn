@@ -39,7 +39,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Characters/SkillExpClass.o \
 	${OBJECTDIR}/Characters/WeaponSkillExpClass.o \
 	${OBJECTDIR}/Events/CombatEvent.o \
-	${OBJECTDIR}/Events/DialougeEvent.o \
+	${OBJECTDIR}/Events/DialogueEvent.o \
 	${OBJECTDIR}/Events/Event.o \
 	${OBJECTDIR}/Maps/Map.o \
 	${OBJECTDIR}/Maps/Tile.o \
@@ -90,10 +90,10 @@ ${OBJECTDIR}/Events/CombatEvent.o: Events/CombatEvent.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Events/CombatEvent.o Events/CombatEvent.cpp
 
-${OBJECTDIR}/Events/DialougeEvent.o: Events/DialougeEvent.cpp 
+${OBJECTDIR}/Events/DialogueEvent.o: Events/DialogueEvent.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Events
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Events/DialougeEvent.o Events/DialougeEvent.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Events/DialogueEvent.o Events/DialogueEvent.cpp
 
 ${OBJECTDIR}/Events/Event.o: Events/Event.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Events

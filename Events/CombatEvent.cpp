@@ -26,8 +26,8 @@ CombatEvent::~CombatEvent() {
     
 }
 
-void CombatEvent::SetTriggered() {
-    triggered = 1;
+void CombatEvent::SetTrigger() {
+    trigger = 1;
 }
 
 void CombatEvent::SetTriggerChance() {

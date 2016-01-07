@@ -5,20 +5,20 @@
  */
 
 /* 
- * File:   CombatEvent.h
+ * File:   DialogueEvent.h
  * Author: David
  *
- * Created on January 6, 2016, 3:40 PM
+ * Created on January 6, 2016, 4:12 PM
  */
 
-#ifndef COMBATEVENT_H
-#define COMBATEVENT_H
+#ifndef DIALOGUEEVENT_H
+#define DIALOGUEEVENT_H
 
-class CombatEvent:public Event {
+class DialogueEvent:public Event {
 public:
-    CombatEvent();
-    CombatEvent(const CombatEvent& orig);
-    virtual ~CombatEvent();
+    DialogueEvent();
+    DialogueEvent(const DialogueEvent& orig);
+    virtual ~DialogueEvent();
     void SetTrigger();
     void SetTriggerChance();
     
@@ -26,5 +26,5 @@ private:
 
 };
 
-#endif /* COMBATEVENT_H */
+#endif /* DIALOGUEEVENT_H */
 

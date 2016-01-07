@@ -19,11 +19,11 @@ public:
     Event();
     Event(const Event& orig);
     virtual ~Event();
-    virtual void SetTriggered(){};
+    virtual void SetTrigger(){};
     virtual void SetTriggerChance(){};
     
 protected:
-    bool triggered;
+    bool trigger;
     int triggerChance;
     
 };

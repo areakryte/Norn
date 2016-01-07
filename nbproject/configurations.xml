@@ -6,7 +6,7 @@
                    projectFiles="true">
       <itemPath>Characters/Character.h</itemPath>
       <itemPath>Events/CombatEvent.h</itemPath>
-      <itemPath>Events/DialougeEvent.h</itemPath>
+      <itemPath>Events/DialogueEvent.h</itemPath>
       <itemPath>Events/Event.h</itemPath>
       <itemPath>Maps/Map.h</itemPath>
       <itemPath>Characters/SkillExpClass.h</itemPath>
@@ -22,7 +22,7 @@
                    projectFiles="true">
       <itemPath>Characters/Character.cpp</itemPath>
       <itemPath>Events/CombatEvent.cpp</itemPath>
-      <itemPath>Events/DialougeEvent.cpp</itemPath>
+      <itemPath>Events/DialogueEvent.cpp</itemPath>
       <itemPath>Events/Event.cpp</itemPath>
       <itemPath>Maps/Map.cpp</itemPath>
       <itemPath>Characters/SkillExpClass.cpp</itemPath>
@@ -69,9 +69,9 @@
       </item>
       <item path="Events/CombatEvent.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Events/DialougeEvent.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Events/DialogueEvent.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Events/DialougeEvent.h" ex="false" tool="3" flavor2="0">
+      <item path="Events/DialogueEvent.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Events/Event.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -124,9 +124,9 @@
       </item>
       <item path="Events/CombatEvent.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Events/DialougeEvent.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Events/DialogueEvent.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Events/DialougeEvent.h" ex="false" tool="3" flavor2="0">
+      <item path="Events/DialogueEvent.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Events/Event.cpp" ex="false" tool="1" flavor2="0">
       </item>
