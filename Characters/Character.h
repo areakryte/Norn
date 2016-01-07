@@ -21,15 +21,18 @@ public:
     Character(const Character& orig);
     virtual ~Character();
     virtual void DisplayCharacterName(){};
+    virtual void SetCharacterName(){};
     virtual void DisplayCharacterTitle(){};
+    virtual void SetCharacterTitle(){};
     virtual void DisplayCharacterDescription(){};
+    virtual void SetCharacterDiscription(){};
     virtual void DisplayCharacterRace(){};
-    virtual std::string DisplaySkills(){};
-    virtual std::string DisplayStats(){};
     virtual void SetCharacterRace(){};
-    virtual void SetCharacterEquipment(){};
+    virtual std::string DisplaySkills(){};
     virtual void AddCharacterSkill(){};
+    virtual std::string DisplayStats(){};
     virtual void AddCharacterStat(){};
+    virtual void SetCharacterEquipment(){};
     virtual void AddCharacterEquipment(){};
     virtual void RemoveCharacterEquipment(){};
     
@@ -37,13 +40,6 @@ protected:
     std::string characterName;
     std::string characterTitle;
     std::string characterDescription;
-    unsigned int strength;
-    unsigned int dexterity;
-    unsigned int intelligence;
-    unsigned int constitution;
-    unsigned int agility;
-    unsigned int wisdom;
-    unsigned int luck;
     unsigned int characterRace;
     enum race {
         Default,
@@ -52,6 +48,13 @@ protected:
         Orc,
         Lamia,
     };
+    unsigned int strength;
+    unsigned int dexterity;
+    unsigned int intelligence;
+    unsigned int constitution;
+    unsigned int agility;
+    unsigned int wisdom;
+    unsigned int luck;
      
 private:
     void SetRaceStats(int characterRace);

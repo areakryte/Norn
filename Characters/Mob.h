@@ -14,14 +14,6 @@
 #ifndef MOB_H
 #define MOB_H
 
-namespace MobPhenology {
-    enum class mobRace{
-        
-    };
-}
-
-using namespace MobPhenology;
-
 class Mob:public Character {
 public:
     Mob();
