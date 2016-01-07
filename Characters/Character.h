@@ -15,18 +15,6 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
-namespace RacialPhenology
-{
-    enum class Race {
-        Human,
-        Elf,
-        Orc,
-        Lamia,
-    };
-}
-
-using namespace RacialPhenology;
-
 class Character {
 public:
     Character();
@@ -47,7 +35,6 @@ protected:
     std::string characterName;
     std::string characterTitle;
     std::string characterDescription;
-    Race race;
     unsigned int strength;
     unsigned int dexterity;
     unsigned int intelligence;
@@ -55,9 +42,16 @@ protected:
     unsigned int agility;
     unsigned int wisdom;
     unsigned int luck;
+    unsigned int characterRace;
+    enum race {
+        Default,
+        Human,
+        Elf,
+        Orc,
+        Lamia,};
      
 private:
-    void SetRace();
+    void SetRaceStats(int characterRace);
     
 };
 
