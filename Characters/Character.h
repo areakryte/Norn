@@ -22,7 +22,6 @@ namespace RacialPhenology
         Elf,
         Orc,
         Lamia,
-        Mob,
     };
 }
 
@@ -48,6 +47,7 @@ protected:
     std::string characterName;
     std::string characterTitle;
     std::string characterDescription;
+    Race race;
     unsigned int strength;
     unsigned int dexterity;
     unsigned int intelligence;

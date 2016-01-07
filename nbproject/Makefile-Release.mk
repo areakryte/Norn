@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Characters/Character.o \
+	${OBJECTDIR}/Characters/Mob.o \
 	${OBJECTDIR}/Characters/SkillExpClass.o \
 	${OBJECTDIR}/Characters/WeaponSkillExpClass.o \
 	${OBJECTDIR}/Events/ChoiceEvent.o \
@@ -81,6 +82,11 @@ ${OBJECTDIR}/Characters/Character.o: Characters/Character.cpp
 	${MKDIR} -p ${OBJECTDIR}/Characters
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/Character.o Characters/Character.cpp
+
+${OBJECTDIR}/Characters/Mob.o: Characters/Mob.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Characters
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/Mob.o Characters/Mob.cpp
 
 ${OBJECTDIR}/Characters/SkillExpClass.o: Characters/SkillExpClass.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Characters
