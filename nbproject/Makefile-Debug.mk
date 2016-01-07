@@ -44,7 +44,10 @@ OBJECTFILES= \
 	${OBJECTDIR}/Events/Event.o \
 	${OBJECTDIR}/Events/RandomCombatEvent.o \
 	${OBJECTDIR}/Events/TimedCombatEvent.o \
+	${OBJECTDIR}/Maps/Icon.o \
+	${OBJECTDIR}/Maps/ItemIcon.o \
 	${OBJECTDIR}/Maps/Map.o \
+	${OBJECTDIR}/Maps/PlayerIcon.o \
 	${OBJECTDIR}/Maps/Tile.o \
 	${OBJECTDIR}/main.o
 
@@ -118,10 +121,25 @@ ${OBJECTDIR}/Events/TimedCombatEvent.o: Events/TimedCombatEvent.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Events/TimedCombatEvent.o Events/TimedCombatEvent.cpp
 
+${OBJECTDIR}/Maps/Icon.o: Maps/Icon.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Maps
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Maps/Icon.o Maps/Icon.cpp
+
+${OBJECTDIR}/Maps/ItemIcon.o: Maps/ItemIcon.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Maps
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Maps/ItemIcon.o Maps/ItemIcon.cpp
+
 ${OBJECTDIR}/Maps/Map.o: Maps/Map.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Maps
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Maps/Map.o Maps/Map.cpp
+
+${OBJECTDIR}/Maps/PlayerIcon.o: Maps/PlayerIcon.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Maps
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Maps/PlayerIcon.o Maps/PlayerIcon.cpp
 
 ${OBJECTDIR}/Maps/Tile.o: Maps/Tile.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Maps

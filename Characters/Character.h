@@ -20,11 +20,20 @@ public:
     Character();
     Character(const Character& orig);
     virtual ~Character();
+    virtual void DisplayCharacterName(){};
+    virtual void DisplayCharacterTitle(){};
+    virtual void DisplayCharacterDescription(){};
+    virtual void DisplayCharacterRace(){};
     virtual std::string DisplaySkills(){};
     virtual std::string DisplayStats(){};
+    virtual void SetCharacterRace(){};
+    virtual void AddCharacterSkill(){};
+    virtual void AddCharacterStat(){};
+    virtual void SetCharacterEquipment(){};
     
 protected:
     std::string characterName;
+    std::string characterTitle;
     std::string characterDescription;
     unsigned int strength;
     unsigned int dexterity;

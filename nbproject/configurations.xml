@@ -9,7 +9,10 @@
       <itemPath>Events/CombatEvent.h</itemPath>
       <itemPath>Events/DialogueEvent.h</itemPath>
       <itemPath>Events/Event.h</itemPath>
+      <itemPath>Maps/Icon.h</itemPath>
+      <itemPath>Maps/ItemIcon.h</itemPath>
       <itemPath>Maps/Map.h</itemPath>
+      <itemPath>Maps/PlayerIcon.h</itemPath>
       <itemPath>Events/RandomCombatEvent.h</itemPath>
       <itemPath>Characters/SkillExpClass.h</itemPath>
       <itemPath>Maps/Tile.h</itemPath>
@@ -28,7 +31,10 @@
       <itemPath>Events/CombatEvent.cpp</itemPath>
       <itemPath>Events/DialogueEvent.cpp</itemPath>
       <itemPath>Events/Event.cpp</itemPath>
+      <itemPath>Maps/Icon.cpp</itemPath>
+      <itemPath>Maps/ItemIcon.cpp</itemPath>
       <itemPath>Maps/Map.cpp</itemPath>
+      <itemPath>Maps/PlayerIcon.cpp</itemPath>
       <itemPath>Events/RandomCombatEvent.cpp</itemPath>
       <itemPath>Characters/SkillExpClass.cpp</itemPath>
       <itemPath>Maps/Tile.cpp</itemPath>
@@ -95,9 +101,21 @@
       </item>
       <item path="Events/TimedCombatEvent.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Maps/Icon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Maps/Icon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Maps/ItemIcon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Maps/ItemIcon.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Maps/Map.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Maps/Map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Maps/PlayerIcon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Maps/PlayerIcon.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Maps/Tile.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -162,9 +180,21 @@
       </item>
       <item path="Events/TimedCombatEvent.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Maps/Icon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Maps/Icon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Maps/ItemIcon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Maps/ItemIcon.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Maps/Map.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Maps/Map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Maps/PlayerIcon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Maps/PlayerIcon.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Maps/Tile.cpp" ex="false" tool="1" flavor2="0">
       </item>
