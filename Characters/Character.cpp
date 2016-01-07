@@ -31,3 +31,7 @@ Character::~Character() {
     
 }
 
+void Character::SetRace() {
+    
+}
+

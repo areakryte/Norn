@@ -15,6 +15,19 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
+namespace RacialPhenology
+{
+    enum class Race {
+        Human,
+        Elf,
+        Orc,
+        Lamia,
+        Mob,
+    };
+}
+
+using namespace RacialPhenology;
+
 class Character {
 public:
     Character();
@@ -42,6 +55,10 @@ protected:
     unsigned int agility;
     unsigned int wisdom;
     unsigned int luck;
+     
+private:
+    void SetRace();
+    
 };
 
 #endif /* CHARACTER_H */
