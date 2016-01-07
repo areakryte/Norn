@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Characters/Character.o \
 	${OBJECTDIR}/Characters/SkillExpClass.o \
 	${OBJECTDIR}/Characters/WeaponSkillExpClass.o \
+	${OBJECTDIR}/Events/ChoiceEvent.o \
 	${OBJECTDIR}/Events/CombatEvent.o \
 	${OBJECTDIR}/Events/DialogueEvent.o \
 	${OBJECTDIR}/Events/Event.o \
@@ -86,6 +87,11 @@ ${OBJECTDIR}/Characters/WeaponSkillExpClass.o: Characters/WeaponSkillExpClass.cp
 	${MKDIR} -p ${OBJECTDIR}/Characters
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/WeaponSkillExpClass.o Characters/WeaponSkillExpClass.cpp
+
+${OBJECTDIR}/Events/ChoiceEvent.o: Events/ChoiceEvent.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Events
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Events/ChoiceEvent.o Events/ChoiceEvent.cpp
 
 ${OBJECTDIR}/Events/CombatEvent.o: Events/CombatEvent.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Events
