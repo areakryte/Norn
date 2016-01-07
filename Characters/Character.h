@@ -27,9 +27,11 @@ public:
     virtual std::string DisplaySkills(){};
     virtual std::string DisplayStats(){};
     virtual void SetCharacterRace(){};
+    virtual void SetCharacterEquipment(){};
     virtual void AddCharacterSkill(){};
     virtual void AddCharacterStat(){};
-    virtual void SetCharacterEquipment(){};
+    virtual void AddCharacterEquipment(){};
+    virtual void RemoveCharacterEquipment(){};
     
 protected:
     std::string characterName;
@@ -48,7 +50,8 @@ protected:
         Human,
         Elf,
         Orc,
-        Lamia,};
+        Lamia,
+    };
      
 private:
     void SetRaceStats(int characterRace);

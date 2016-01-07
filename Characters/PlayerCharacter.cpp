@@ -9,7 +9,7 @@
  * Created on January 7, 2016, 1:02 PM
  */
 
-#include "Characters/Character.h"
+#include "Character.h"
 #include "PlayerCharacter.h"
 
 PlayerCharacter::PlayerCharacter() {

@@ -1,5 +1,8 @@
 /*
  * Abstract class for all characters
+ * Make the Default race the weakest
+ * No starting stat will exceed 10
+ * The base class does not have a job class
  */
 
 /* 

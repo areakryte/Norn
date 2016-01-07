@@ -15,7 +15,7 @@
       <itemPath>Maps/Map.h</itemPath>
       <itemPath>Characters/Mob.h</itemPath>
       <itemPath>Characters/NonPlayerCharacter.h</itemPath>
-      <itemPath>PlayerCharacter.h</itemPath>
+      <itemPath>Characters/PlayerCharacter.h</itemPath>
       <itemPath>Maps/PlayerIcon.h</itemPath>
       <itemPath>Events/RandomCombatEvent.h</itemPath>
       <itemPath>Characters/SkillExpClass.h</itemPath>
@@ -41,7 +41,7 @@
       <itemPath>Maps/Map.cpp</itemPath>
       <itemPath>Characters/Mob.cpp</itemPath>
       <itemPath>Characters/NonPlayerCharacter.cpp</itemPath>
-      <itemPath>PlayerCharacter.cpp</itemPath>
+      <itemPath>Characters/PlayerCharacter.cpp</itemPath>
       <itemPath>Maps/PlayerIcon.cpp</itemPath>
       <itemPath>Events/RandomCombatEvent.cpp</itemPath>
       <itemPath>Characters/SkillExpClass.cpp</itemPath>
@@ -87,6 +87,10 @@
       </item>
       <item path="Characters/NonPlayerCharacter.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Characters/PlayerCharacter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Characters/PlayerCharacter.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Characters/SkillExpClass.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Characters/SkillExpClass.h" ex="false" tool="3" flavor2="0">
@@ -140,10 +144,6 @@
       <item path="Maps/Tile.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Maps/Tile.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="PlayerCharacter.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="PlayerCharacter.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WeaponSkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -182,6 +182,10 @@
       </item>
       <item path="Characters/NonPlayerCharacter.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Characters/PlayerCharacter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Characters/PlayerCharacter.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Characters/SkillExpClass.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Characters/SkillExpClass.h" ex="false" tool="3" flavor2="0">
@@ -235,10 +239,6 @@
       <item path="Maps/Tile.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Maps/Tile.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="PlayerCharacter.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="PlayerCharacter.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WeaponSkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>
