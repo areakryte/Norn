@@ -16,6 +16,7 @@
 
 Character::Character() {
     characterName = "";
+    characterTitle = "";
     characterDescription = "";
     characterRace = 1;
     SetRaceStats(characterRace);

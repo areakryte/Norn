@@ -21,13 +21,13 @@ public:
     Character(const Character& orig);
     virtual ~Character();
     virtual void DisplayCharacterName(){};
-    virtual void SetCharacterName(){};
+    virtual void SetCharacterName(std::string name){};
     virtual void DisplayCharacterTitle(){};
-    virtual void SetCharacterTitle(){};
+    virtual void SetCharacterTitle(std::string title){};
     virtual void DisplayCharacterDescription(){};
-    virtual void SetCharacterDiscription(){};
+    virtual void SetCharacterDiscription(std::string discription){};
     virtual void DisplayCharacterRace(){};
-    virtual void SetCharacterRace(){};
+    virtual void SetCharacterRace(int num){};
     virtual std::string DisplaySkills(){};
     virtual void AddCharacterSkill(){};
     virtual std::string DisplayStats(){};
@@ -55,8 +55,6 @@ protected:
     unsigned int agility;
     unsigned int wisdom;
     unsigned int luck;
-     
-private:
     void SetRaceStats(int characterRace);
     
 };

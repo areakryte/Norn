@@ -13,7 +13,11 @@
 #include "PlayerCharacter.h"
 
 PlayerCharacter::PlayerCharacter() {
-    
+    characterName = "";
+    characterTitle = "";
+    characterDescription = "";
+    characterRace = 1;
+    SetRaceStats(characterRace);
 }
 
 PlayerCharacter::PlayerCharacter(const PlayerCharacter& orig) {
