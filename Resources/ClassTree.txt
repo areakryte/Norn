@@ -60,14 +60,14 @@ Warrior ----|-- Berserker
             |-- Ranger
             |
             |
-Bowmen -----|-- Bolter
+Bowmen -----|-- Trapper
             |
             |
             |-- Stinger
 ================================
 # Track Hidden
 ================================
-            |-- LamiaPromo1
+            |-- Blood Mage
             |
 LamiaBase --|
             |
