@@ -47,6 +47,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Events/Event.o \
 	${OBJECTDIR}/Events/RandomCombatEvent.o \
 	${OBJECTDIR}/Events/TimedCombatEvent.o \
+	${OBJECTDIR}/Items/Armor.o \
 	${OBJECTDIR}/Items/Item.o \
 	${OBJECTDIR}/Items/UseableItem.o \
 	${OBJECTDIR}/Items/Weapon.o \
@@ -142,6 +143,11 @@ ${OBJECTDIR}/Events/TimedCombatEvent.o: Events/TimedCombatEvent.cpp
 	${MKDIR} -p ${OBJECTDIR}/Events
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Events/TimedCombatEvent.o Events/TimedCombatEvent.cpp
+
+${OBJECTDIR}/Items/Armor.o: Items/Armor.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Items
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Items/Armor.o Items/Armor.cpp
 
 ${OBJECTDIR}/Items/Item.o: Items/Item.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Items
