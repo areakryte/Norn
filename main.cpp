@@ -15,8 +15,8 @@
 #include <iostream>
 #include <string>
 
-#include "C:\Users\David\Documents\NetBeansProjects\Norn\Characters\SkillExpClass.h"
-#include "C:\Users\David\Documents\NetBeansProjects\Norn\Characters\WeaponSkillExpClass.h"
+#include "Characters\Skills\SkillExpClass.h"
+#include "Characters\Skills\WeaponSkillExpClass.h"
 
 /*
  * 

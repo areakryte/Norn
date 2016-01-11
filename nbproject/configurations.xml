@@ -21,7 +21,7 @@
       <itemPath>Characters/PlayerCharacter.h</itemPath>
       <itemPath>Maps/PlayerIcon.h</itemPath>
       <itemPath>Events/RandomCombatEvent.h</itemPath>
-      <itemPath>Characters/SkillExpClass.h</itemPath>
+      <itemPath>Characters/Skills/SkillExpClass.h</itemPath>
       <itemPath>Maps/Tile.h</itemPath>
       <itemPath>Events/TimedCombatEvent.h</itemPath>
       <itemPath>Items/UseableItem.h</itemPath>
@@ -52,12 +52,12 @@
       <itemPath>Characters/PlayerCharacter.cpp</itemPath>
       <itemPath>Maps/PlayerIcon.cpp</itemPath>
       <itemPath>Events/RandomCombatEvent.cpp</itemPath>
-      <itemPath>Characters/SkillExpClass.cpp</itemPath>
+      <itemPath>Characters/Skills/SkillExpClass.cpp</itemPath>
       <itemPath>Maps/Tile.cpp</itemPath>
       <itemPath>Events/TimedCombatEvent.cpp</itemPath>
       <itemPath>Items/UseableItem.cpp</itemPath>
       <itemPath>Items/Weapon.cpp</itemPath>
-      <itemPath>Characters/WeaponSkillExpClass.cpp</itemPath>
+      <itemPath>Characters/Skills/WeaponSkillExpClass.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -106,11 +106,17 @@
       </item>
       <item path="Characters/PlayerCharacter.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Characters/SkillExpClass.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Characters/Skills/SkillExpClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="Characters/SkillExpClass.h" ex="false" tool="3" flavor2="0">
+      <item path="Characters/Skills/SkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Characters/WeaponSkillExpClass.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Characters/Skills/WeaponSkillExpClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="Events/ChoiceEvent.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -223,11 +229,17 @@
       </item>
       <item path="Characters/PlayerCharacter.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Characters/SkillExpClass.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Characters/Skills/SkillExpClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="Characters/SkillExpClass.h" ex="false" tool="3" flavor2="0">
+      <item path="Characters/Skills/SkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Characters/WeaponSkillExpClass.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Characters/Skills/WeaponSkillExpClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="Events/ChoiceEvent.cpp" ex="false" tool="1" flavor2="0">
       </item>

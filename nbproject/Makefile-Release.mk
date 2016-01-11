@@ -40,8 +40,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/Characters/NonPlayerCharacter.o \
 	${OBJECTDIR}/Characters/PartyMember.o \
 	${OBJECTDIR}/Characters/PlayerCharacter.o \
-	${OBJECTDIR}/Characters/SkillExpClass.o \
-	${OBJECTDIR}/Characters/WeaponSkillExpClass.o \
+	${OBJECTDIR}/Characters/Skills/SkillExpClass.o \
+	${OBJECTDIR}/Characters/Skills/WeaponSkillExpClass.o \
 	${OBJECTDIR}/Events/ChoiceEvent.o \
 	${OBJECTDIR}/Events/CombatEvent.o \
 	${OBJECTDIR}/Events/DialogueEvent.o \
@@ -110,15 +110,15 @@ ${OBJECTDIR}/Characters/PlayerCharacter.o: Characters/PlayerCharacter.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/PlayerCharacter.o Characters/PlayerCharacter.cpp
 
-${OBJECTDIR}/Characters/SkillExpClass.o: Characters/SkillExpClass.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Characters
+${OBJECTDIR}/Characters/Skills/SkillExpClass.o: Characters/Skills/SkillExpClass.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Characters/Skills
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/SkillExpClass.o Characters/SkillExpClass.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/Skills/SkillExpClass.o Characters/Skills/SkillExpClass.cpp
 
-${OBJECTDIR}/Characters/WeaponSkillExpClass.o: Characters/WeaponSkillExpClass.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Characters
+${OBJECTDIR}/Characters/Skills/WeaponSkillExpClass.o: Characters/Skills/WeaponSkillExpClass.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Characters/Skills
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/WeaponSkillExpClass.o Characters/WeaponSkillExpClass.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/Skills/WeaponSkillExpClass.o Characters/Skills/WeaponSkillExpClass.cpp
 
 ${OBJECTDIR}/Events/ChoiceEvent.o: Events/ChoiceEvent.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Events
