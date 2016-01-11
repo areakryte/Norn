@@ -71,6 +71,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>Resources/ClassTree.txt</itemPath>
   </logicalFolder>
   <sourceRootList>
     <Elem>Characters</Elem>
@@ -174,6 +175,8 @@
       <item path="Maps/Tile.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Maps/Tile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/ClassTree.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WeaponSkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -289,6 +292,8 @@
       <item path="Maps/Tile.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Maps/Tile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/ClassTree.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WeaponSkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>

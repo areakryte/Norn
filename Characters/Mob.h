@@ -20,7 +20,7 @@ public:
     Mob(const Mob& orig);
     virtual ~Mob();
     
-private:
+protected:
     unsigned int mobType;
     enum mobRace {
         Undead,
@@ -29,10 +29,10 @@ private:
         Elemental,
         Beast,
         Plant,
-        Demihuman,
     };
+    bool isBoss;
     void SetMobRaceStats();
-    void SetMobStatScaling();
+    void IsBoss();
 
 };
 

@@ -1,0 +1,75 @@
+================================
+# Track 1
+================================
+            |-- Monk*
+            |
+            |
+Cleric -----|-- Priest
+            |
+            |
+            |-- Paladin
+            |
+            |
+Swordsmen --|-- Knight
+            |
+            |
+            |-- Duelist
+            |
+            |
+Gunner -----|-- Riflemen
+            |
+            |
+            |-- Cannoneer
+================================
+# Track 2
+================================
+            |-- Hexer*
+            |
+            |
+Magus ------|-- Elementalist
+            |
+            |
+            |-- Spellblade
+            |
+            |
+Dervish ----|-- Twinblade
+            |
+            |
+            |-- Assassin
+            |
+            |
+Archer -----|-- Hunter
+            |
+            |
+            |-- Spellbreaker
+================================
+# Track 3
+================================
+            |-- Summoner*
+            |
+            |
+Shaman -----|-- Sage
+            |
+            |
+            |-- Druid
+            |
+            |
+Warrior ----|-- Berserker
+            |
+            |
+            |-- Ranger
+            |
+            |
+Bowmen -----|-- Bolter
+            |
+            |
+            |-- Stinger
+================================
+# Track Hidden
+================================
+            |-- LamiaPromo1
+            |
+LamiaBase --|
+            |
+            |-- LamiaPromo2
+            

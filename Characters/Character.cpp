@@ -19,7 +19,7 @@ Character::Character() {
     characterName = "";
     characterTitle = "";
     characterDescription = "";
-    characterRace = 1;
+    characterRace = 0;
     SetRaceStats();
 }
 
@@ -71,13 +71,14 @@ void Character::SetRaceStats() {
             luck = 9;
             break;
         default:
-            strength = 6;
-            dexterity = 6;
-            intelligence = 6;
-            constitution = 6;
-            agility = 6;
-            wisdom = 6;
-            luck = 6;
+            //Default will be used for all mob classes
+            strength = 3;
+            dexterity = 3;
+            intelligence = 3;
+            constitution = 3;
+            agility = 3;
+            wisdom = 3;
+            luck = 3;
             break;
     }
 }
