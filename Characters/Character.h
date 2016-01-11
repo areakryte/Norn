@@ -35,6 +35,7 @@ public:
     virtual void SetCharacterEquipment(){};
     virtual void AddCharacterEquipment(){};
     virtual void RemoveCharacterEquipment(){};
+    virtual void GetDerivedStats(){};
     
 protected:
     std::string characterName;
@@ -56,6 +57,14 @@ protected:
     unsigned int wisdom;
     unsigned int luck;
     void SetRaceStats(int characterRace);
+    
+    unsigned int hp;
+    unsigned int sp;
+    int initative;  
+    int def;
+    int mdef;
+    int acc;
+    int eva;    
     
 };
 

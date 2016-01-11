@@ -14,11 +14,12 @@
 #ifndef PARTYMEMBER_H
 #define PARTYMEMBER_H
 
-class PartyMember {
+class PartyMember:public NonPlayerCharacter {
 public:
     PartyMember();
     PartyMember(const PartyMember& orig);
     virtual ~PartyMember();
+    
 private:
 
 };
