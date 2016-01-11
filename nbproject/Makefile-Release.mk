@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Characters/Character.o \
 	${OBJECTDIR}/Characters/Mob.o \
 	${OBJECTDIR}/Characters/NonPlayerCharacter.o \
+	${OBJECTDIR}/Characters/PartyMember.o \
 	${OBJECTDIR}/Characters/PlayerCharacter.o \
 	${OBJECTDIR}/Characters/SkillExpClass.o \
 	${OBJECTDIR}/Characters/WeaponSkillExpClass.o \
@@ -98,6 +99,11 @@ ${OBJECTDIR}/Characters/NonPlayerCharacter.o: Characters/NonPlayerCharacter.cpp
 	${MKDIR} -p ${OBJECTDIR}/Characters
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/NonPlayerCharacter.o Characters/NonPlayerCharacter.cpp
+
+${OBJECTDIR}/Characters/PartyMember.o: Characters/PartyMember.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Characters
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Characters/PartyMember.o Characters/PartyMember.cpp
 
 ${OBJECTDIR}/Characters/PlayerCharacter.o: Characters/PlayerCharacter.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Characters
