@@ -15,6 +15,7 @@
       <itemPath>Items/Item.h</itemPath>
       <itemPath>Maps/ItemIcon.h</itemPath>
       <itemPath>Maps/Map.h</itemPath>
+      <itemPath>Menus/Menu.h</itemPath>
       <itemPath>Characters/Mob.h</itemPath>
       <itemPath>Characters/NonPlayerCharacter.h</itemPath>
       <itemPath>Characters/PartyMember.h</itemPath>
@@ -46,6 +47,7 @@
       <itemPath>Items/Item.cpp</itemPath>
       <itemPath>Maps/ItemIcon.cpp</itemPath>
       <itemPath>Maps/Map.cpp</itemPath>
+      <itemPath>Menus/Menu.cpp</itemPath>
       <itemPath>Characters/Mob.cpp</itemPath>
       <itemPath>Characters/NonPlayerCharacter.cpp</itemPath>
       <itemPath>Characters/PartyMember.cpp</itemPath>
@@ -182,6 +184,10 @@
       </item>
       <item path="Maps/Tile.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Menus/Menu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Menus/Menu.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Resources/ClassTree.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WeaponSkillExpClass.h" ex="false" tool="3" flavor2="0">
@@ -304,6 +310,10 @@
       <item path="Maps/Tile.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Maps/Tile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Menus/Menu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Menus/Menu.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Resources/ClassTree.txt" ex="false" tool="3" flavor2="0">
       </item>

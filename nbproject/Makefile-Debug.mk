@@ -58,6 +58,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Maps/Map.o \
 	${OBJECTDIR}/Maps/PlayerIcon.o \
 	${OBJECTDIR}/Maps/Tile.o \
+	${OBJECTDIR}/Menus/Menu.o \
 	${OBJECTDIR}/main.o
 
 
@@ -199,6 +200,11 @@ ${OBJECTDIR}/Maps/Tile.o: Maps/Tile.cpp
 	${MKDIR} -p ${OBJECTDIR}/Maps
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Maps/Tile.o Maps/Tile.cpp
+
+${OBJECTDIR}/Menus/Menu.o: Menus/Menu.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Menus
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Menus/Menu.o Menus/Menu.cpp
 
 ${OBJECTDIR}/main.o: main.cpp 
 	${MKDIR} -p ${OBJECTDIR}
