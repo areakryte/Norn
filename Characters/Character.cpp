@@ -71,13 +71,13 @@ void Character::SetRaceStats(int characterRace) {
             luck = 9;
             break;
         default:
-            strength = 1;
-            dexterity = 1;
-            intelligence = 1;
-            constitution = 1;
-            agility = 1;
-            wisdom = 1;
-            luck = 1;
+            strength = 6;
+            dexterity = 6;
+            intelligence = 6;
+            constitution = 6;
+            agility = 6;
+            wisdom = 6;
+            luck = 6;
             break;
     }
 }
