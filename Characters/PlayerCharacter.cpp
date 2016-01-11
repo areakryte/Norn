@@ -17,7 +17,7 @@ PlayerCharacter::PlayerCharacter() {
     characterTitle = "";
     characterDescription = "";
     characterRace = 1;
-    SetRaceStats(characterRace);
+    SetRaceStats();
 }
 
 PlayerCharacter::PlayerCharacter(const PlayerCharacter& orig) {

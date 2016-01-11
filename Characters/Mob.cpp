@@ -24,3 +24,27 @@ Mob::~Mob() {
     
 }
 
+void Mob::SetMobRaceStats() {
+    switch(mobType) {
+        case Undead:
+            break;
+        case Horror:
+            break;
+        case Demon:
+            break;
+        case Elemental:
+            break;
+        case Beast:
+            break;
+        case Plant:
+            break;
+        case Demihuman:
+            break;
+        default:
+            break;
+    }
+}
+
+void Mob::SetMobStatScaling() {
+    
+}

@@ -56,8 +56,9 @@ protected:
     unsigned int agility;
     unsigned int wisdom;
     unsigned int luck;
-    void SetRaceStats(int characterRace);
+    void SetRaceStats();
     
+    unsigned int level;
     unsigned int hp;
     unsigned int sp;
     int initative;  

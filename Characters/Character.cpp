@@ -20,7 +20,7 @@ Character::Character() {
     characterTitle = "";
     characterDescription = "";
     characterRace = 1;
-    SetRaceStats(characterRace);
+    SetRaceStats();
 }
 
 Character::Character(const Character& orig) {
@@ -31,7 +31,7 @@ Character::~Character() {
     
 }
 
-void Character::SetRaceStats(int characterRace) {
+void Character::SetRaceStats() {
     switch(characterRace)
     {
         case Elf:

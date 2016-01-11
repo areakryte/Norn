@@ -21,6 +21,18 @@ public:
     virtual ~Mob();
     
 private:
+    unsigned int mobType;
+    enum mobRace {
+        Undead,
+        Horror,
+        Demon,
+        Elemental,
+        Beast,
+        Plant,
+        Demihuman,
+    };
+    void SetMobRaceStats();
+    void SetMobStatScaling();
 
 };
 
