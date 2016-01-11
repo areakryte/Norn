@@ -65,11 +65,11 @@ Bowmen -----|-- Trapper
             |
             |-- Stinger
 ================================
-# Track Hidden
+# Barrens (Really hard bonus)
 ================================
             |-- Blood Mage
             |
-LamiaBase --|
+Sidewinder -|
             |
-            |-- LamiaPromo2
+            |-- Shadow
             

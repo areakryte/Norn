@@ -74,6 +74,7 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
     <itemPath>Resources/ClassTree.txt</itemPath>
+    <itemPath>Resources/WorldDescription.txt</itemPath>
   </logicalFolder>
   <sourceRootList>
     <Elem>Characters</Elem>
@@ -189,6 +190,8 @@
       <item path="Menus/Menu.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Resources/ClassTree.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/WorldDescription.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WeaponSkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -316,6 +319,8 @@
       <item path="Menus/Menu.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Resources/ClassTree.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/WorldDescription.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WeaponSkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>
