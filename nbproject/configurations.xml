@@ -22,6 +22,7 @@
       <itemPath>Characters/SkillExpClass.h</itemPath>
       <itemPath>Maps/Tile.h</itemPath>
       <itemPath>Events/TimedCombatEvent.h</itemPath>
+      <itemPath>Items/UseableItem.h</itemPath>
       <itemPath>Items/Weapon.h</itemPath>
       <itemPath>WeaponSkillExpClass.h</itemPath>
     </logicalFolder>
@@ -50,6 +51,7 @@
       <itemPath>Characters/SkillExpClass.cpp</itemPath>
       <itemPath>Maps/Tile.cpp</itemPath>
       <itemPath>Events/TimedCombatEvent.cpp</itemPath>
+      <itemPath>Items/UseableItem.cpp</itemPath>
       <itemPath>Items/Weapon.cpp</itemPath>
       <itemPath>Characters/WeaponSkillExpClass.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
@@ -128,6 +130,10 @@
       <item path="Items/Item.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Items/Item.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Items/UseableItem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Items/UseableItem.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Items/Weapon.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -231,6 +237,10 @@
       <item path="Items/Item.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Items/Item.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Items/UseableItem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Items/UseableItem.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Items/Weapon.cpp" ex="false" tool="1" flavor2="0">
       </item>
