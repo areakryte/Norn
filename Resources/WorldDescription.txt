@@ -187,13 +187,31 @@ goddess.
 
 
 -Barrens
-At the very center of the free cities is a region which the people call the 
+    At the very center of the free cities is a region which the people call the 
 barrens. The ground is ash, the air toxic, and the water blood red with iron and
-aresnic. Further in the ash wastes are a ring of spires, resembling the spine of
-the world, if it were made of glass and dross. The snow that appears here melts 
-in the spring, running down these spires, picking up rust and other toxins. The
-high winds chip and fragment the glass, causing the winds here to lacerate 
-anyone unprepared. If people acutally manage to scale the glass spires, they 
-would be greeted with a site of absolute desolation. In the array of glass 
-spires is a blood red sea, slowly draining away in several locations.
-
+arsenic. The outer rim of the barrens is rocky and harsh, its soil backed thick,
+like hardened blackened clay. These are the particles of ash and glass that 
+freely ride the wind to their resting place, then made wet by the toxic water 
+running from the center of the barrens, and then dried again by the unforgiving
+sun. Further inward the hardened soil is covered by ash and glass as there is 
+not enough water to make the entirety of the ground wet. The particles form 
+dunes of silt, which whip up whenever the wind blows. Through the storm of dust,
+there are hundreds of spires made of glass and slag rising thousands of feet 
+into the air. The tips are covered in ice and snow and when they melt they bring
+the dross down with them creating rivers of red, black, and yellow. This has the
+effect of seasonal waterfalls in the region. These spires appear to be part of
+a crater that made the earth molten for a few seconds and then froze 
+immediately. This means that it is exceedingly difficult to scale the craters 
+and get to the other side. Water also flows into the craters, but it seems that 
+the craters have exposed underground passages since some crater lakes are 
+constantly draining and in a whirlpool state. The wind blows freely here, 
+chipping the spires and breaking flecks of glass and slag into the wind. Anyone
+exploring the area needs to be properly equipped, lest the air shred their skin
+to bits. Even more strange are the presence of ruined buildings, mostly 
+foundations, and an occasional half wall.
+    Despite the horrific landscape, there is still life here, if it could be 
+called that. There are some aquatic grasses that grow red from the iron in the
+water and on land, short shrubs that have thorns that are poisonous to touch.
+The earth below is filled with all sorts of unnatural life, as they seem to be
+twisted out of shape. Every life form here finds a way to compete with each 
+other whether it means thorns, thick shells, or poison. 
