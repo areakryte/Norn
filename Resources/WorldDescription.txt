@@ -10,6 +10,8 @@ weather is pleasant to its inhabitents. It has miles of well cultured farmland,
 and food is rarely an issue. The winters are cold and frosty, but not harsh. To
 the east are wetlands that eventually turn into a near barren bog and to the 
 south would be the open sea.
+Land Striation: Pine forest mountains into colder plains into temperate forests
+into farmlands
 
 -Sycurose
 The elvish nation to the southwest of the free cities. Its quite often humid 
@@ -20,6 +22,8 @@ there are a few persistant cities within the nation. From spring to fall, the
 weather is quite warm, blistering even. However as winter arrives, the 
 tempuratures take sheer dive inland. Never enough to freeze, the air becomes 
 numbing, driving the people inland.
+Land Striation: Steppe into plateu into mountainous rainforest into platue into
+costal plain
 
 -Etterd
 To the north east of the free cities exists a world of high spires and frozen 
@@ -27,6 +31,8 @@ peaks. Spring and summer are short, and the winters harsh and long. To survive,
 the orcs of this region have developed a tradition of winter hunts to meet their
 daily food quotas. Crops in this region are grown in green houses from spring to
 fall. To the north east is a mountain pass to the barrens.
+Land Striation: Glacier into tundra into pine forest into mountainous pines into
+frozen steppe
 
 -Free Cities
 The central point where the three landmasses meet. Fair and temperate, the land

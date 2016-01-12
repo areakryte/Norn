@@ -75,6 +75,7 @@
     </logicalFolder>
     <itemPath>Resources/ClassTree.txt</itemPath>
     <itemPath>Resources/WorldDescription.txt</itemPath>
+    <itemPath>Resources/WorldLegends.txt</itemPath>
   </logicalFolder>
   <sourceRootList>
     <Elem>Characters</Elem>
@@ -192,6 +193,8 @@
       <item path="Resources/ClassTree.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Resources/WorldDescription.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/WorldLegends.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WeaponSkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -321,6 +324,8 @@
       <item path="Resources/ClassTree.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Resources/WorldDescription.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/WorldLegends.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WeaponSkillExpClass.h" ex="false" tool="3" flavor2="0">
       </item>
