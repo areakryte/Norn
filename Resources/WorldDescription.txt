@@ -22,8 +22,8 @@ there are a few persistant cities within the nation. From spring to fall, the
 weather is quite warm, blistering even. However as winter arrives, the 
 tempuratures take sheer dive inland. Never enough to freeze, the air becomes 
 numbing, driving the people inland.
-Land Striation: Steppe into plateu into mountainous rainforest into platue into
-costal plain
+Land Striation: desert into steppe into plateu into mountainous rainforest into 
+platue into costal plain
 
 -Etterd
 To the north east of the free cities exists a world of high spires and frozen 
