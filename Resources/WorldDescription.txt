@@ -102,14 +102,46 @@ during the summer seasons, with the other seasons being more mild, and as such
 they have a vast array of light leathers to help with mobility on foot and 
 horseback. 
 
--Etterd
-To the north east of the free cities exists a world of high spires and frozen 
-peaks. Spring and summer are short, and the winters harsh and long. To survive,
-the orcs of this region have developed a tradition of winter hunts to meet their
-daily food quotas. Crops in this region are grown in green houses from spring to
-fall. To the north east is a mountain pass to the barrens.
-Land Striation: Glacier into tundra into pine forest into mountainous pines into
-frozen steppe
+-Etterd (Orcs)
+    Here the land is the harshest and bitterest. The southern borders the lands of
+Reinholt and the bogs of the free cities, but from here on out the land takes a 
+turn for most extreme. The pine forests continue from here on out, rising with 
+the elevation. Eventually they continue into massive snowy spires that have 
+massive glaciers and ice caps. To the south east of this mountain range is where
+a frozen tundra exists. More like a frozen bog, the tundra is the best place to 
+farm, but the short springs and summers mean that the people must use 
+greenhouses everyday of the year to avoid crop failure. Their green houses are
+made of a single wall of dense peat and dirt, then an arch of glass fired from 
+the rubble from the iron mines inn the mountains. Since the forests are dense 
+and continue until the glaciers, the people here focus a great deal on hunting 
+and trapping for furs and food. Game is quite common here as there are few 
+natural preadetors that threaten the bounty of deer and other wildlife here. The
+glaciers themselves also have a few villages inside the massive ice tunnels. 
+Though spring causes some of the glacier to melt, the water usually runs in well
+established tunnels that catch the water and avoid the hidden villages. 
+    Orcs are tied to the land which they live on and are said to hear the voice 
+of the earth. They have an instinct that allows then to find life in the most
+barren of tundra and ice in any situation. As a result of this adaptation, they
+have a annual hunt on the winter solstice to measure the efficacy of their 
+hunters. This celebration is also a acknowledgement to the spirit of the hunt 
+and to the spirit of survival, which are generally represented manifestations of
+the land. Although they have some cattle, they rely on the hunt for protein and
+clothing. They have clan symbols which represent the region from where they were
+originally from, and generally it consists of the most significant landmark in 
+that area.
+    Clothing in this area is fairly similar, with a few differences. Because of
+the tribal nature of the people in this region, there are a few set of rules 
+that everyone follows to maintain a unified sense of a nation. Firstly every orc
+wears a mask that covers their mouth in public, since baring your teeth is 
+considered to be rude and threatening. Secondly, everyone wears a tribe 
+identifier so that they can defend against the tribeless, those who where cast
+out for violating a law in the region. The forest dwellers usually have clothing
+made from furs, not leather, as they believe that fur will better hide them from
+their prey. The farmers in the tundra where a white leather and generally have
+bracelets and other trinkets made of stones in the tundra. The glacier dwellers
+have a mixture of furs and leathers, but also have pieces of their clothing 
+woven from the fibers of the pines in the area, as it helps them scale the sides 
+of the glaciers of which they have made their home.
 
 -Free Cities
 The central point where the three landmasses meet. Fair and temperate, the land
