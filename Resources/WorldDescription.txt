@@ -49,17 +49,58 @@ summers are generally mild, there are a good array of short sleeves, although
 there have records of relatively cold summers as well, which necessitate the 
 constant use of longer sleeves and pants within the region.
 
--Sycurose
-The elvish nation to the southwest of the free cities. Its quite often humid 
-with rather large seasonal storms that cause massive damage along the coasts. 
-Because of this, the coastal cities are nomadic in nature, as they move inland 
-during the summer seasons. To the north is a harbor rarely ravaged by storms, so
-there are a few persistant cities within the nation. From spring to fall, the 
-weather is quite warm, blistering even. However as winter arrives, the 
-tempuratures take sheer dive inland. Never enough to freeze, the air becomes 
-numbing, driving the people inland.
-Land Striation: desert into steppe into plateu into mountainous rainforest into 
-platue into costal plain
+-Sycurose (Elves)
+Sycurose is a land of extreme turbulence when speaking of the weather and as 
+such, the people here have developed ways to mitigate disaster by simply not 
+being in a disaster zone when it occurs. The north is a dry and rocky desert 
+that extended out of the ash wastes. Since there is more sand than ash here, 
+there are more signs of life around the small oases that dot the area. The 
+people living in these oasis towns are migrant desert hunters that search for 
+the large lizards in the area for their skins. As you continue south, the ground
+gets harder and rocker, though no less dry. There are still a oases within the 
+zone, but there are now rivers, allowing for small farms in the area. Then the
+altitudes climb and the rocky earth gives way to higher plateaus of steppe land.
+Here, the majority of the population lives as farmers, and migrant cattle 
+herders, moving from different steppes every few years to give the land rest.
+Still, the land climbs onward after that and the steppes give way to a dense
+sub tropical rainforest. It does not rain as often as the name implies, but 
+rather, draws a good chunk of rain from the moisture in the clouds. There is no 
+chance of snow here, but the winters become cold in the cloud canopy. When 
+winter arrives, the rain forest soaks up a good chunk of the rain, with the 
+steppes next and a the few remaining clouds in the rocky desert. After the rain
+forest in the high mountains comes the coastal plains which are rich in wildlife
+and black soil. The only issue is that every winter, there are massive storms 
+that blot out the sun and tear up the land with hurricane force gales and 
+indiscriminate flooding. As a result, there are fewer people here, and those 
+who continue to live here go to low lands in spring, plant fast growing crops
+then return to the high mountains by mid fall. Lastly the coast off the shore of
+the coastal plains are littered with islands both large and small. The only 
+issue is that the currents there are treacherous meaning that few, if any 
+actually live there. They are all mountainous and difficult to scale, and dense
+with forests.
+    The people here look to the creatures of this land to help them 
+understand the cycles of the seasons, and as a result they are animists. Often 
+they carry a totem of an animal that has helped them survive in the past 
+sometimes more. These trinkets are usually small and hang of their clothing, but
+there are others who tattoo the symbols into their hands as a constant reminder
+of the different animal spirits that watch over them and warn them of the 
+impending dooms that come when they ignore the warnings. Many of them also see 
+the value of wandering together to survive the changes, so there are many 
+different totems in a migrant group. Only the do the most foolish wander alone,
+or those who can withstand the changes of the season.
+    Again, as the the regions change, so do the people. Nearly every people 
+group in this area are migratory, which means they have learned to travel light,
+and it shows in their clothing. It also helps with the hot and humid weather to 
+south as well. The people with in the deserts do not have as many issues with 
+humidity, so can dress in heavier clothing which is generally well ventilated to
+allow the heat to escape. However, those who live in the high mountains and the
+coast deal with oppressive humidity and keep their cloths light, since they 
+never know when the next gales will strike. They are experts at running for 
+cover and avoiding the next disaster, so they also carry very few belongings 
+with them. Lastly are the steppe dwellers. Typically they deal with a dry heat
+during the summer seasons, with the other seasons being more mild, and as such
+they have a vast array of light leathers to help with mobility on foot and 
+horseback. 
 
 -Etterd
 To the north east of the free cities exists a world of high spires and frozen 
