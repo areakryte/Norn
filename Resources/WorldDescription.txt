@@ -3,15 +3,51 @@
 *Also write more later with 
 *more detail and coherence
 ============================
+#It's been a while since I wrote this down on paper, then lost the papers so 
+#please bear with the choppiness for now. There's also a good bit of material to
+#cover so hopefully it won't be too boring hah.....
+
 *ROUGH DRAFT*
--Reinholt
-A primarily human country to the west of free cities. Temperate and cool, the 
-weather is pleasant to its inhabitents. It has miles of well cultured farmland, 
-and food is rarely an issue. The winters are cold and frosty, but not harsh. To
-the east are wetlands that eventually turn into a near barren bog and to the 
-south would be the open sea.
-Land Striation: Pine forest mountains into colder plains into temperate forests
-into farmlands
+-Reinholt (Humans)
+    From the bitter north to the warm and gracious southern farmlands, Reinholt is a
+land of moderates. Food is plentiful due to the vast plains and farmlands in the
+south. Every winter there are storms that cause the banks of the rivers to 
+overflow, causing the plains to flood with a relatively thin layer of water, but
+more importantly silt. As a result, the people in this region build their houses
+and grain silos on solid foundations that resist the rising waters every winter.
+North of these farmlands is a range of temperate forests, filled with hearty 
+maples, oaks, and wild walnut trees. As a result, the land here is perfect for 
+the many orchards that dot this area. With the addition of fruit in this region
+comes the many apiaries and breweries that also found in this country. Next is 
+the region of highlands that serve as additional farmlands. Since there is no 
+seasonal flooding in this area, the highlands serve as grazing grounds for the 
+cattle in the area. Lastly there are the pine forests to the mountains in the 
+north. Typically this region is ignored as it is on the border of Etterd, their
+Orcish neighbors. The winters here are harsher, and the soil rocky. The only 
+purpose this region servers is as a source of metals for the other cities to the
+south.
+    The people of region may have different styles of dress and different 
+traditions, but generally they have the same religious beliefs. Their faith is
+almost akin to that of a polytheistic church, but structured. They believe in 
+the three sisters of creation, the ones who defended the people from a false god
+of madness. First there is Lithie who represents the concept of truth and 
+foresight. Crows and ravens are her symbol and the people who follow her 
+typically have clothing with black feathers either emblazoned on or actual black
+feathers. Second there is Nekene who represents the willingness to serve as well
+as the aspect of magic. Her symbol is that of a black flame and the legends 
+state that as her signature spell, the fires of the void, would actually take in
+all light, leaving their enemies blind and help less. Thirdly there is Khylessia
+who represents protection and strength. The wolf is her symbol and this is 
+usually demonstrated by fangs or claw on clothing. Again, the symbols within 
+this nation typically are black, but then are highlighted in silver, icy 
+blues and whites.
+    Because of the wide range of temperatures in the region, there is a wide
+variety of clothing in the nation. The people in the north dress with more furs
+as typically, the winters make it a necessity. The southerners have more cloth
+and boots that can resist the heavy rains that come about the winters. Since the
+summers are generally mild, there are a good array of short sleeves, although
+there have records of relatively cold summers as well, which necessitate the 
+constant use of longer sleeves and pants within the region.
 
 -Sycurose
 The elvish nation to the southwest of the free cities. Its quite often humid 
