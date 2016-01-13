@@ -73,6 +73,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>Resources/ClassSkills</itemPath>
     <itemPath>Resources/ClassTree.txt</itemPath>
     <itemPath>Resources/WorldDescription.txt</itemPath>
     <itemPath>Resources/WorldLegends.txt</itemPath>
@@ -189,6 +190,8 @@
       <item path="Menus/Menu.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Menus/Menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/ClassSkills" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Resources/ClassTree.txt" ex="false" tool="3" flavor2="0">
       </item>
@@ -320,6 +323,8 @@
       <item path="Menus/Menu.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Menus/Menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/ClassSkills" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Resources/ClassTree.txt" ex="false" tool="3" flavor2="0">
       </item>
