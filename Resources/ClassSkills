@@ -2,6 +2,7 @@
 #All WIP
 #All status have a chance to trigger
 #All values have to be tweeked
+#DEFINATELY NEEDS A LOT OF WORK
 =========================
 Passive Masteries
 =========================
@@ -45,6 +46,43 @@ Gunner
     Scattershot - Slows target and low damage
     Gun Smoke - Lowers chance of getting hit with small accuracy penalty
 
+Priest
+    Remedy - Removes the rest of the status ailments. Boosts wis.
+    Pulse - Heals everyone in party.
+    Condemn - Moonlight strikes the target.
+    Purity - Removes target of all buffs.
+    Grace - Next status aliment is turned into a buff.
+Paladin
+    Heal
+    Guard - Chance to nullify damage on party member.
+    Smite - Damage bonus to undead, horrors, and demons.
+    Prayer - Increased Mp regen in battle for 3 rounds.
+    Taunt - Target the Paladin.
+Knight
+    Onslaught - Three hits, chance to slow and stun.
+    Puncture
+    Rally - Bonus to con, str for 3 rounds.
+    Feint - Weak move, but almost always hits.
+    Lucky Hit - Chance to do 1.5 damage. Can stack with crit. Passive.
+Duelist
+    Double strike - Hit with both weapons.
+    Confinement - The duelist and target can only attack each other.
+    Kneecap - Roots the target and reduces defense while doing damage.
+    Not So Equal Ground - Duelist gets target's buffs, and target gets debuffs.
+    Flare - Applies burning and blinds target.
+Riflemen
+    Headshot - Massive damage and damages int and wis. Low hit chance.
+    Disarm - Lowers atk and damages target.
+    Anti Person Rounds - Ignores defense and does damage.
+    Concentrate - Boosts accuracy massively.
+    Pebble shot - Enrages target.
+Cannoneer
+    Blast Radius - Aoe attack that causes bleeding and burning.
+    Low Blow - If the target has a status ailment, damage is doubled.
+    Flash Bang - Aoe blind.
+    Medical powder - Aoe light regeneration.
+    Smokescreen - Lowers chance of hitting and getting hit.
+
 Magus
     Sparks - Weak multi hit spell. Lowers mdef. Can chose targets for every hit.
     Rush - Increases targets speed at the cost of defense.
@@ -52,7 +90,7 @@ Magus
     Emblazon - Party get fire attribute attack for a short duration.
     Flash Fire - Target gets light fire damage and is burned.
 Dervish
-    Flurry - Chance to have a second strike with weapon.
+    Flurry - Chance to have a second strike with weapon. Passive.
     Sand Attack - Small damage and blind.
     Puncture - Inflicts bleed and medium damage.
     Flow - Dodges damage and inflicts random status on target.
@@ -72,7 +110,7 @@ Shaman
     Ice Shards - Fires a few shots that bounce between a few targets.
 Warrior
     Crushing Blow - Stuns and decreases def.
-    Bulwark - Decreases party damage sharing damage.
+    Bulwark - Decreases party damage by sharing damage.
     War Cry - Increase atk and decrease enemy int.
     Whirlwind - Aoe attack.
     Undercut - Single target hit that does damage. Small chance to crit.
