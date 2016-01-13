@@ -1,4 +1,7 @@
 #Skill set possiblities
+#All WIP
+#All status have a chance to trigger
+#All values have to be tweeked
 =========================
 Passive Masteries
 =========================
@@ -41,4 +44,49 @@ Gunner
     Ricochet - One target and another at lower damage
     Scattershot - Slows target and low damage
     Gun Smoke - Lowers chance of getting hit with small accuracy penalty
+
+Magus
+    Sparks - Weak multi hit spell. Lowers mdef. Can chose targets for every hit.
+    Rush - Increases targets speed at the cost of defense.
+    Fireball - Aoe spell.
+    Emblazon - Party get fire attribute attack for a short duration.
+    Flash Fire - Target gets light fire damage and is burned.
+Dervish
+    Flurry - Chance to have a second strike with weapon.
+    Sand Attack - Small damage and blind.
+    Puncture - Inflicts bleed and medium damage.
+    Flow - Dodges damage and inflicts random status on target.
+    Backstab - Higher critical chance and slightly higher damage.
+Archer
+    Pin - Target is rooted.
+    Spiral Shot - Damages target and lowers def.
+    Toxic Shot - Damages and poisons target.
+    Camouflage - Increases evasion and next hit will crit.
+    Parting Shot - Fires a wild shot and the archer cannot be targeted next turn.
+
+Shaman
+    Regeneration - Heals a little and regeneration is applied for 3 rounds.
+    Call of Earth - Increases defense at the cost of speed.
+    Call of Ice - Slows target.
+    Rupture - Heavy single target damage.
+    Ice Shards - Fires a few shots that bounce between a few targets.
+Warrior
+    Crushing Blow - Stuns and decreases def.
+    Bulwark - Decreases party damage sharing damage.
+    War Cry - Increase atk and decrease enemy int.
+    Whirlwind - Aoe attack.
+    Undercut - Single target hit that does damage. Small chance to crit.
+Bowmen
+    Puncture
+    Spiral Shot
+    Sunning Blow - Stuns and decreases enemy wis
+    Fragmentation - Light aoe damage
+    Volley
+
+Sidewinder
+    Flow
+    Whirlwind
+    Rush
+    Regenerate
+    Mark Target
     

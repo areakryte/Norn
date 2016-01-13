@@ -75,6 +75,7 @@
     </logicalFolder>
     <itemPath>Resources/ClassSkills</itemPath>
     <itemPath>Resources/ClassTree.txt</itemPath>
+    <itemPath>Resources/StatusEffects</itemPath>
     <itemPath>Resources/WorldDescription.txt</itemPath>
     <itemPath>Resources/WorldLegends.txt</itemPath>
   </logicalFolder>
@@ -194,6 +195,8 @@
       <item path="Resources/ClassSkills" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Resources/ClassTree.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/StatusEffects" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Resources/WorldDescription.txt" ex="false" tool="3" flavor2="0">
       </item>
@@ -327,6 +330,8 @@
       <item path="Resources/ClassSkills" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Resources/ClassTree.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/StatusEffects" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Resources/WorldDescription.txt" ex="false" tool="3" flavor2="0">
       </item>
