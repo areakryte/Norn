@@ -4,9 +4,14 @@ Passive Masteries
 =========================
 #Basically Weapon Masteries for different classes
 #This is when it appears as weapons that they can use
+#This means that a class can get a mastery twice such as Dervish -> Spellblade
+#It will mean that they have a better sword mastery than lets say
+#Warrior -> Druid as there is only one level of sword mastery there.
+#The more use a weapon gets, the more the passive skill levels. 
+#The system is C->B->A and if you get the second skill mastery A->S->SS 
 Sword - Swordsmen, Paladin, Knight, Dervish, Spellblade, Twinblade, Assassin
         Warrior, Berserker, Ranger
-Spear - Knight, Spellblade
+Spear - Swordsmen, Knight, Spellblade
 Axe - Warrior, Druid, Berserker, Ranger, Duelist
 Mace - Warrior, Druid, Berserker, Cleric, Paladin
 Firearm - Gunner, Duelist, Riflemen, Cannoneer
@@ -18,4 +23,19 @@ Staff - Cleric, Priest, Shaman, Sage, Druid
 =========================
 Active Skills
 =========================
-
+Cleric
+    Heal - The classic simple heal.
+    Cure - Removes some status aliments
+    Illuminate - Does light damage and blinds
+    Protection - Reduces incoming damage
+    Exonerate - Removes binds and stat decrease
+Swordsmen
+    Block - Blocks incoming hits at reduced damage
+    Parry - Counters the next hit at a lower chance
+    Bash - The classic
+    Whirlwind - Aoe strike
+    Pommel Strike - Damages and lowers enemy str
+Gunner
+    Volley - Fires two shots
+    Mark Target - Increases chance to hit for party
+    
