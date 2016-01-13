@@ -99,8 +99,46 @@ Archer
     Pin - Target is rooted.
     Spiral Shot - Damages target and lowers def.
     Toxic Shot - Damages and poisons target.
-    Camouflage - Increases evasion and next hit will crit.
+    Camouflage - Increases evasion and next hit will crit if it hits.
     Parting Shot - Fires a wild shot and the archer cannot be targeted next turn.
+
+Elementalist
+    Galeforce - Light aoe damage and party gets speed boost.
+    Lighting Strike - Three targets take damage. Chance to fear.
+    Biting Frost - Chance to freeze. Damage over time. Slows.
+    Sandstorm - Accurracy drop, damagage over time. AOE.
+    Pyre - Does more damage based on defense of enemy.
+Spellblade
+    Hybridize - Int is added to atk and str is added to matk.
+    Spell Shield - Part of damage is absorbed by sp.
+    Reversal - Swap Hp and Sp until end of battle. Only up to 50%
+    Mana Lance - A physical attack that uses enemy mdef as def.
+    Mana Pillar - A magical attack that uses enemy def as mdef.
+Twinblade
+    Ambidexterity - Can equip off hand weapon with fewer penalties. Stacks with flurry for 4x hits sometimes
+    Wind Blade - An attack based on the speed of the user.
+    Mirror Image - Chance to trigger second skill or attack.
+    Malediction - An attack that has a chance to disease the opponent.
+    Misdirection - An attack that the user will always miss, but another target will always hit.
+Assassin
+    Kill Shot - If a target is below a certain amount of hp, it dies.
+    Tamper - Up to three targets are poisoned.
+    Cockatrice's Concoction - Target is petrified.
+    Sabotage - Does a bit of damage, target then loses 90% defense.
+    Weakness - Applies a debuff that grows stronger over time.
+Hunter
+    Deadeye - Accuracy increases. Every attack has a chance to stun or sleep. Passive.
+    Barbed Arrow - Attack that causes bleed status effect.
+    Obsidian Arrow - Critical shot that ignores turn order. Always goes first.
+    Hunter's Call - Applies fear to x targets.
+    Scouting - Party cannot be slowed and agi and dex cannot drop.
+Spellbreaker
+    Mana Draw - All arrows are magic based until end of effect.
+    Terminate - Removes all status ailments and damage over time effects on target. 
+                All damage and effects are applied at once. Effects first.
+    Soul Strike - Next attack uses the lowest stat as the defense modifier for opponent.
+    Sparrow - Takes all buffs of target and applies it to a party member.
+    Silver and Spirit - Strikes with a magic based arrow and physical arrow.
 
 Shaman
     Regeneration - Heals a little and regeneration is applied for 3 rounds.
