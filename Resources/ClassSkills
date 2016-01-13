@@ -38,4 +38,7 @@ Swordsmen
 Gunner
     Volley - Fires two shots
     Mark Target - Increases chance to hit for party
+    Ricochet - One target and another at lower damage
+    Scattershot - Slows target and low damage
+    Gun Smoke - Lowers chance of getting hit with small accuracy penalty
     
