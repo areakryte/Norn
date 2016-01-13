@@ -1,7 +1,7 @@
 ================================
 # Reinholt (Humans)
 ================================
-            |-- Monk*
+            |-- Witch*
             |
             |
 Cleric -----|-- Priest
@@ -23,7 +23,7 @@ Gunner -----|-- Riflemen
 ================================
 # Sycurose (Elves)
 ================================
-            |-- Hexer*
+            |-- Oracle*
             |
             |
 Magus ------|-- Elementalist
@@ -45,7 +45,7 @@ Archer -----|-- Hunter
 ================================
 # Etterd (Orcs)
 ================================
-            |-- Summoner*
+            |-- Monk*
             |
             |
 Shaman -----|-- Sage
@@ -63,7 +63,7 @@ Warrior ----|-- Berserker
 Bowmen -----|-- Trapper
             |
             |
-            |-- Stinger
+            |-- Stinger 
 ================================
 # Barrens (Really hard bonus)
 ================================
