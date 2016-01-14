@@ -2,7 +2,7 @@
 #All WIP
 #All status have a chance to trigger
 #All values have to be tweeked
-#DEFINATELY NEEDS A LOT OF WORK
+#definitely NEEDS A LOT OF WORK
 =========================
 Passive Masteries
 =========================
@@ -49,23 +49,23 @@ Gunner
 Priest
     Remedy - Removes the rest of the status ailments. Boosts wis.
     Pulse - Heals everyone in party.
-    Condemn - Moonlight strikes the target.
-    Purity - Removes target of all buffs.
-    Grace - Next status aliment is turned into a buff.
+    Condemn - Moonlight strikes the target then burns them.
+    Purity - Removes target of all buffs. The remaining effects then damage the target.
+    Grace - Next status aliment is turned into a buff for the party.
 Paladin
-    Heal
+    Heal - Different formula for paladin
     Guard - Chance to nullify damage on party member.
     Smite - Damage bonus to undead, horrors, and demons.
     Prayer - Increased Mp regen in battle for 3 rounds.
     Taunt - Target the Paladin.
 Knight
     Onslaught - Three hits, chance to slow and stun.
-    Puncture
+    Glancing Blow - Ignores some def when attacking. Reduces enemy attack.
     Rally - Bonus to con, str for 3 rounds.
     Feint - Weak move, but almost always hits.
     Lucky Hit - Chance to do 1.5 damage. Can stack with crit. Passive.
 Duelist
-    Double strike - Hit with both weapons.
+    Double strike - Hit with both weapons, which have different damage calculations.
     Confinement - The duelist and target can only attack each other.
     Kneecap - Roots the target and reduces defense while doing damage.
     Not So Equal Ground - Duelist gets target's buffs, and target gets debuffs.
@@ -106,7 +106,7 @@ Elementalist
     Galeforce - Light aoe damage and party gets speed boost.
     Lighting Strike - Three targets take damage. Chance to fear.
     Biting Frost - Chance to freeze. Damage over time. Slows.
-    Sandstorm - Accurracy drop, damagage over time. AOE.
+    Sandstorm - Accuracy drop, damage over time. AOE.
     Pyre - Does more damage based on defense of enemy.
 Spellblade
     Hybridize - Int is added to atk and str is added to matk.
@@ -154,10 +154,47 @@ Warrior
     Undercut - Single target hit that does damage. Small chance to crit.
 Bowmen
     Puncture
-    Spiral Shot
+    Defensive fire - All speed and evasion bonuses no longer apply to enemies.
     Sunning Blow - Stuns and decreases enemy wis
     Fragmentation - Light aoe damage
     Volley
+
+Sage
+    Mudslide - Target takes damage then is petrified.
+    Winter's bite - reduces the mdef of oppenents and chance to freeze.
+    Avalanche - Enemies are rooted and take damage next turn.
+    Aura - Aoe regeneration applied.
+    Glacial Shift - Slow, but massive strike of ice and earth. Lower accuracy.
+Druid
+    Nature's bounty - Removes status ailments that do damage and restores a small amount of hp.
+    Strength of Earth - Improves atk of target. Decreases def over time.
+    Strength of Glaciers - Improves matk of target. Reduces mdef over time.
+    Bludgeon - Does more damage based on the hp of the target.
+    Ensnare - Roots a target and then strikes them.
+Berserker
+    Enrage - Passive. Every hit taken increases speed and attack.
+    Sunder - Strips enemy of all defensive bonuses are removed after the attack.
+    Slam - Stuns targets when used. Slowed after the stun.
+    Rally - Bonus defense based on number of people still up in the party.
+    Meditation - Regenerates hp and def.
+Ranger
+    Double strike - With crossbow formula
+    Ley of the Land - Next hit is reduced by highest defense rating.
+    Ice Bolt - Ice damage fired from a bolt. Freezes.
+    Flaming Bolt - Applies burns and target is marked.
+    Hack - Two strikes, first stuns, second bleeds.
+Trapper
+    Snare Trap - Roots target. They bleed every turn.
+    Shrapnel Trap - Aoe attack. May apply a bleed.
+    Waterway - Slows the enemy if they attack.
+    Chimes - Increases accuracy for party if enemy attacks.
+    Kill Shot - This one for beasts
+Stinger
+    Auto Fire - Randomly attacks 1-5 times during attack. Accuracy is lower every consecutive shot.
+    Shred - Every hit reduces armor slightly. Passive.
+    Suppressive Fire - Cancels next action from target. Does no damage.
+    Shatter - Frozen and petrified targets take damage, then def and mdef is halved.
+    Selective Targeting - Instead of damaging HP, damage MP instead.
 
 Sidewinder
     Flow
