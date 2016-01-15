@@ -155,59 +155,76 @@ Spellbreaker
 
 Shaman
     Regeneration - Heals a little and regeneration is applied for 3 rounds.
-    Call of Earth - Increases defense at the cost of speed.
-    Call of Ice - Slows target.
+    Call of Nature - Accuracy increases and MP regeneration is added.
+    Call of Ice - Does some magical damage and slows the target.
     Rupture - Heavy single target damage.
     Ice Shards - Fires a few shots that bounce between a few targets.
 Warrior
-    Crushing Blow - Stuns and decreases def.
-    Bulwark - Decreases party damage by sharing damage.
-    War Cry - Increase atk and decrease enemy int.
-    Whirlwind - Aoe attack.
-    Undercut - Single target hit that does damage. Small chance to crit.
-Bowmen
-    Puncture
+    Undercut - Single target hit that does damage. Silences the target.
+    Taunt - Target will attack the Warrior for an amount of turns.
+    Endurance - Status ailments ends earlier. Also lowers the damage or the 
+                debuff amount. Passive.
+    Bash - Deals damage based on how much defense you have.
+    Standing Strike - Does reduced damage, but Warrior takes a defensive stance
+                      raising defense.
+Gunner
+    Ricochet - First a shot that hits one target and another random enemy at 
+               reduced damage.
     Defensive fire - All speed and evasion bonuses no longer apply to enemies.
-    Sunning Blow - Stuns and decreases enemy wis
-    Fragmentation - Light aoe damage
-    Volley
+    Concentrate - Improves accuracy and attack for a few rounds.
+    Dirty Round - Fires a shot that does damage and applies a smokescreen, 
+                  lowering accuracy everyone.
+    Warning Shot - Low accuracy shot that causes fear.
 
 Sage
     Mudslide - Target takes damage then is petrified.
-    Winter's bite - reduces the mdef of oppenents and chance to freeze.
-    Avalanche - Enemies are rooted and take damage next turn.
-    Aura - Aoe regeneration applied.
-    Glacial Shift - Slow, but massive strike of ice and earth. Lower accuracy.
+    Winter's Bite - Reduces the magic defense of enemies and chance of freezing
+                    for the next few rounds.
+    Avalanche - Enemies are rooted and take damage. They are then frozen the 
+                next turn.
+    Midsummer's Night - AOE regeneration applied.
+    Glacial Shift - A low accuracy move that does massive damage with it hits.
 Druid
-    Nature's bounty - Removes status ailments that do damage and restores a small amount of hp.
-    Strength of Earth - Improves atk of target. Decreases def over time.
-    Strength of Glaciers - Improves matk of target. Reduces mdef over time.
-    Bludgeon - Does more damage based on the hp of the target.
-    Ensnare - Roots a target and then strikes them.
-Berserker
-    Enrage - Passive. Every hit taken increases speed and attack.
-    Sunder - Strips enemy of all defensive bonuses are removed after the attack.
-    Slam - Stuns targets when used. Slowed after the stun.
-    Rally - Bonus defense based on number of people still up in the party.
-    Meditation - Regenerates hp and def.
+    Nature's Bounty - Removes all DOT type debuffs and restores a small amount
+                      of HP.
+    Strength of Earth - Improves the attack and defense of the target.
+    Strength of Glaciers - Improves the magic attack and magic defense of the 
+                           target.
+    Bludgeon - Does more damage based on the HP of the target.
+    Gaia's Blade - Attacks have a chance to freeze or petrify on strike. 
+                   Passive.
+Bulwark
+    Meditation - HP, defense and regeneration bonuses are all applied.
+    Spellward - Next magical attack is reduced in damage. No status effects can
+                be applied from the attack.
+    Rally - Defense and magic defense bonus is applied based on the people still
+            up in the party.
+    Shield Bash - Stuns the target and does a little damage. A small defense
+                  buff is applied.
+    Interception - Bulwark protects target and take target's damage for the rest
+                   of the next turn.
 Ranger
-    Double strike - With crossbow formula
-    Ley of the Land - Next hit is reduced by highest defense rating.
-    Ice Bolt - Ice damage fired from a bolt. Freezes.
-    Flaming Bolt - Applies burns and target is marked.
-    Hack - Two strikes, first stuns, second bleeds.
+    Provoke - Fires a weak shot at target that enrages them.
+    Sabotage - The next attack that would hit is a miss instead and the debuff 
+               is applied on the user.
+    Stone Shot - Stuns the opponent and lowers their wisdom stat.
+    Shrapnel Rounds - The next shot does AOE damage.
+    Armor of the Wilds - Passive. Petrification and freezing effects get turned 
+                         to defensive buffs.
+Riflemen
+    Headshot - This one does massive damage at reduced accuracy. Lowers
+               magical attack.
+    Mark Target - Target gets higher chance of getting hit. 
+    Volley - Fires up to three times at the same target.
+    Shatter Shot - A shot that slows the target and is a small AOE.
+    Battle Chant - Increases the attack and magic attack of the party.
 Trapper
-    Snare Trap - Roots target. They bleed every turn.
-    Shrapnel Trap - Aoe attack. May apply a bleed.
-    Waterway - Slows the enemy if they attack.
-    Chimes - Increases accuracy for party if enemy attacks.
-    Kill Shot - This one for beasts
-Stinger
-    Auto Fire - Randomly attacks 1-5 times during attack. Accuracy is lower every consecutive shot.
-    Shred - Every hit reduces armor slightly. Passive.
-    Suppressive Fire - Cancels next action from target. Does no damage.
-    Shatter - Frozen and petrified targets take damage, then def and mdef is halved.
-    Selective Targeting - Instead of damaging HP, damage MP instead.
+    Snare Trap - Target is rooted and loses a small amount of mana.
+    Chilled Shots - Attacks do bonus magic damage with a small chance to 
+                    slow the target. Passive.
+    Freeze Trap - Damages and freezes the target.
+    Mire Trap - Damages and petrifies the target.
+    Clean Shot - Rooted, frozen, and petrified targets take bonus damage.
 
 Sidewinder
     Flow
