@@ -26,7 +26,7 @@ public:
     virtual void DisplayCharacterTitle(){};
     virtual void SetCharacterTitle(std::string title){};
     virtual void DisplayCharacterDescription(){};
-    virtual void SetCharacterDiscription(std::string discription){};
+    virtual void SetCharacterDescription(std::string description){};
     virtual void DisplayCharacterRace(){};
     virtual void SetCharacterRace(unsigned int num){};
     virtual std::string DisplaySkills(){};

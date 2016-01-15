@@ -48,8 +48,28 @@ void PlayerCharacter::DisplayCharacterDescription() {
     std::cout << characterDescription;
 }
 
-void PlayerCharacter::SetCharacterDescription(std::string discription) {
-    characterDescription = discription;
+void PlayerCharacter::SetCharacterDescription(std::string description) {
+    characterDescription = description;
+}
+
+void PlayerCharacter::DisplayCharacterRace() {
+    switch(characterRace) {
+        case 1:
+            std::cout << "Human";
+            break;
+        case 2:
+            std::cout << "Elf";
+            break;
+        case 3:
+            std::cout << "Orc";
+            break;
+        case 4:
+            std::cout << "Lamia";
+            break;
+        default:
+            std::cout << "Default";
+            break;
+    }
 }
 
 void PlayerCharacter::SetCharacterRace(unsigned int num) {

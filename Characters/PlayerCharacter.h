@@ -24,7 +24,8 @@ public:
     void DisplayCharacterTitle();
     void SetCharacterTitle(std::string title);
     void DisplayCharacterDescription();
-    void SetCharacterDescription(std::string discription);
+    void SetCharacterDescription(std::string description);
+    void DisplayCharacterRace();
     void SetCharacterRace(unsigned int num);
     
 private:
