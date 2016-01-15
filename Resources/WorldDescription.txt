@@ -7,12 +7,6 @@
 #please bear with the choppiness for now. There's also a good bit of material to
 #cover so hopefully it won't be too boring hah.....
 
-# Lets do this right this time.
-Humans – Draining, Self-sufficient, Debuffs, Dot damage, Almost no taboos, Magically based
-Orcs – Regen, Defense, Sheer power, For the good of all, Aoe specialist
-Elves – Speed, Combo based teamwork, Toxins, Aspect of critter, Attack piercing
-
-
 *ROUGH DRAFT*
 -Reinholt (Humans)
     A wasteland with little to no food fit for normal consumption is one of the 

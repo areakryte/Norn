@@ -1,0 +1,48 @@
+#Different status aliments that will be common in the system
+
+Elves
+    Burn
+        - Magical based DOT damage. Lowers magic attack.
+        - Cannot stack
+    Blind
+        - Lowers accuracy.
+        - Cannot stack
+    Sleep
+        - Cannot attack. Lasts 0 to 3 turns.
+        - Cannot stack
+Orcs
+    Petrify
+        - Cannot attack. Raises defense, but lowers magical defense.
+        - Cannot stack
+    Frozen
+        - Cannot attack. Raises magical defense, but lowers defense.
+        - Cannot stack
+    Slow
+        - Lower turn order.
+        - Cannot stack
+Human
+    Bleeding
+        - Physical DOT damage.
+        - Stacks
+    Disease
+        - Agility and dexterity drop.
+        - Stacks
+    Poison
+        - Physical DOT damage. Lowers magical attack.
+        - Stacks
+Common
+    Root
+        - Cannot dodge.
+        - Cannot stack
+    Stun
+        - Cannot attack. Always lasts one turn.
+        - Cannot stack
+    Fear
+        - Might not attack. Attack drop.
+        - Cannot stack
+    Rage
+        - Attacks only. Defense drop.
+        - Cannot stack
+    Silence
+        - Cannot use spells
+        - Cannot stack

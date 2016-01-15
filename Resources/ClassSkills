@@ -3,16 +3,16 @@
 #All status have a chance to trigger
 #All values have to be tweeked
 #definitely NEEDS A LOT OF WORK
+
+# Lets do this right this time.
+Humans – Draining, Self-sufficient, Debuffs, Dot damage, Almost no taboos, Magically based
+Orcs – Regen, Defense, Sheer power, For the good of all, Aoe specialist
+Elves – Speed, Combo based teamwork, Toxins, Aspect of critter, Attack piercing4
+
 =========================
 Passive Masteries
 =========================
-#Basically Weapon Masteries for different classes
-#This is when it appears as weapons that they can use
-#This means that a class can get a mastery twice such as Dervish -> Spellblade
-#It will mean that they have a better sword mastery than lets say
-#Warrior -> Druid as there is only one level of sword mastery there.
-#The more use a weapon gets, the more the passive skill levels. 
-#The system is C->B->A and if you get the second skill mastery A->S->SS 
+#Will Fix later
 Sword - Swordsmen, Paladin, Knight, Dervish, Spellblade, Twinblade, Assassin
         Warrior, Berserker, Ranger
 Spear - Swordsmen, Knight, Spellblade
@@ -27,62 +27,75 @@ Staff - Cleric, Priest, Shaman, Sage, Druid
 =========================
 Active Skills
 =========================
-Cleric
-    Heal - The classic simple heal.
-    Cure - Removes some status aliments
-    Illuminate - Does light damage and blinds
-    Protection - Reduces incoming damage
-    Exonerate - Removes binds and stat decrease
-Swordsmen
-    Block - Blocks incoming hits at reduced damage
-    Parry - Counters the next hit at a lower chance
-    Bash - The classic
-    Whirlwind - Aoe strike
-    Pommel Strike - Damages and lowers enemy str
-Gunner
-    Volley - Fires two shots
-    Mark Target - Increases chance to hit for party
-    Ricochet - One target and another at lower damage
-    Scattershot - Slows target and low damage
-    Gun Smoke - Lowers chance of getting hit with small accuracy penalty
+Neophyte
+    Drain - Drains the opponent to heal  a target.
+    Synchronize - If target has a status ailment, they share the ailment with 
+                  opponent. This causes the ailment to tick more than once a 
+                  turn.
+    Plague - Does dot damage and applies a stack of disease.
+    Weakness - Lowers the attack and magic attack strength of the opponent.
+    Inquisition - Silences the target, and the next hit does more damage.
+Reaver
+    Leech - A strike that drains the opponent to heal.
+    Lacerate - Many weak strikes that apply bleed.
+    Shatter - Lowers defense of opponent with every strike. 
+    Counter - Chance to counter a hit. Still takes damage. Passive.
+    Pommel Strike - Damages and lowers enemy strength.
+Bowmen
+    Blood Bolt - Fires a shot that does dot drain damage.
+    Hamstring - Roots target and deals light damage.
+    Numbing Shot - Shoots target and lowers their accuracy.
+    Toxic Shot - Poisons the target and light damage to target.
+    Fade - Evasion goes up for a few rounds and the next shot does bonus damage.
 
-Priest
-    Remedy - Removes the rest of the status ailments. Boosts wis.
-    Pulse - Heals everyone in party.
-    Condemn - Moonlight strikes the target then burns them.
-    Purity - Removes target of all buffs. The remaining effects then damage the target.
-    Grace - Next status aliment is turned into a buff for the party.
-Paladin
-    Heal - Different formula for paladin
-    Guard - Chance to nullify damage on party member.
-    Smite - Damage bonus to undead, horrors, and demons.
-    Prayer - Increased Mp regen in battle for 3 rounds.
-    Taunt - Target the Paladin.
-Knight
-    Onslaught - Three hits, chance to slow and stun.
-    Glancing Blow - Ignores some def when attacking. Reduces enemy attack.
-    Rally - Bonus to con, str for 3 rounds.
-    Feint - Weak move, but almost always hits.
-    Lucky Hit - Chance to do 1.5 damage. Can stack with crit. Passive.
-Duelist
-    Double strike - Hit with both weapons, which have different damage calculations.
-    Confinement - The duelist and target can only attack each other.
-    Kneecap - Roots the target and reduces defense while doing damage.
-    Not So Equal Ground - Duelist gets target's buffs, and target gets debuffs.
-    Flare - Applies burning and blinds target.
-Riflemen
-    Headshot - Massive damage and damages int and wis. Low hit chance.
-    Disarm - Lowers atk and damages target.
-    Anti Person Rounds - Ignores defense and does damage.
-    Concentrate - Boosts accuracy massively.
-    Pebble shot - Enrages target.
-Cannoneer
-    Blast Radius - Aoe attack that causes bleeding and burning.
-    Low Blow - If the target has a status ailment, damage is doubled.
-    Flash Bang - Aoe blind.
-    Medical powder - Aoe light regeneration.
-    Smokescreen - Lowers chance of hitting and getting hit.
-
+Witch
+    Curse - Applies a bleed, poison, and disease.
+    Ensnare - Roots target and does dot damage. 
+    Malediction - AOE DOT damage.
+    Siphon - Takes the buff of the opponent and shares it target.
+    Amplify - All DOT damage is amplified.
+Dullahan
+    Wraith - If the Dullahan would get knocked out, it has three turns of 0 HP,
+             in which you can drain and heal.
+    Equalize - Target and Dullahan share HP pools and spilts it evenly.
+    Razorwind - Multiple magical hits and applies bleed. 
+    Mana Drain - Drains mana from target and deals some magical damage.
+    Mana Burn - Strike a target and does bonus damage based on targets remaining
+                HP. Also destroys an amount of MP based on the bonus damage.
+Berserker
+    Onslaught - Three hits, chance to bleed and stun.
+    Windslash - A heavy slash that causes fear at a lower chance.
+    War Cry - Chance to fear all targets. Raises party's attack and magic 
+              attack.
+    Blood Sense - If the Berserker's HP drops below a certain point, the 
+                  Berserker gains bonuses to attack and evasion. Passive.
+    Rustblade - A strike that causes bleed and disease.
+Stalker
+    Slash and Stab - Hit with a crossbow and with a sword. Causes the target to 
+                     bleed.
+    Confinement - The Stalker and target can only attack each other.
+    Kneecap - Causes bleed and rage on the target while lowering the agility of
+              the target.
+    Not So Equal Ground - Stalker gets target's buffs, and target gets debuffs.
+    Misdirection - The Stalker changes targets and forces a confinement. Other
+                   attacks targeting the Stalker for that turn will miss.
+Banshee
+    Multishot - Each attack has a chance to hit 1-3 times. Passive.
+    Shrieking Shot - Fires a bolt that makes a loud shrieking sound. It lowers
+                     magic defense and causes fear.
+    Barbed Arrows - Shots a barbed arrow that lowers defense and causes bleed.
+    Heavy Bolt - A stunning shot that lasts for a round.
+    Sonic Boom - Fires a special bolt that does much larger amounts of damage 
+                 based on the targets difference in agility.
+Wraith
+    Blood Call - All damage dealt by bleed heals the Wraith.
+    Rend - A magical attack that does damage and bleed on several targets.
+    Blood Scent - All attacks against bleeding targets will not miss. Passive.
+    Hemorrhage - All bleed stacks deal all their damage at once. All bleed 
+                 stacks are consumed when used.
+    Bad Blood - Bleeding target gets a stack of disease for each stack of bleed
+                on it.
+    
 Magus
     Sparks - Weak multi hit spell. Lowers mdef. Can chose targets for every hit.
     Rush - Increases targets speed at the cost of defense.

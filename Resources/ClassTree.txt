@@ -10,7 +10,7 @@ Neophyte ---|-- Witch
             |-- Dullahan
             |
             |
-Swordsmen --|-- Reaver
+Reaver -----|-- Berserker
             |
             |
             |-- Stalker
