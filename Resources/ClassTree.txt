@@ -16,10 +16,10 @@ Reaver -----|-- Berserker
             |-- Stalker
             |
             |
-Bowmen -----|-- Pulser
+Bowmen -----|-- Banshee
             |
             |
-            |-- Banshee
+            |-- Wraith
 ================================
 # Sycurose (Elves)
 ================================
