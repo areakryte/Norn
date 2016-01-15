@@ -19,6 +19,13 @@ public:
     PlayerCharacter();
     PlayerCharacter(const PlayerCharacter& orig);
     virtual ~PlayerCharacter();
+    void DisplayCharacterName();
+    void SetCharacterName(std::string name);
+    void DisplayCharacterTitle();
+    void SetCharacterTitle(std::string title);
+    void DisplayCharacterDescription();
+    void SetCharacterDescription(std::string discription);
+    void SetCharacterRace(unsigned int num);
     
 private:
 

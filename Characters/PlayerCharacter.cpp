@@ -28,3 +28,31 @@ PlayerCharacter::~PlayerCharacter() {
     
 }
 
+void PlayerCharacter::DisplayCharacterName() {
+    std::cout << characterName;
+}
+
+void PlayerCharacter::SetCharacterName(std::string name) {
+    characterName = name;
+}
+
+void  PlayerCharacter::DisplayCharacterTitle() {
+    std::cout << characterTitle;
+}
+
+void PlayerCharacter::SetCharacterTitle(std::string title) {
+    characterTitle = title;
+}
+
+void PlayerCharacter::DisplayCharacterDescription() {
+    std::cout << characterDescription;
+}
+
+void PlayerCharacter::SetCharacterDescription(std::string discription) {
+    characterDescription = discription;
+}
+
+void PlayerCharacter::SetCharacterRace(unsigned int num) {
+    characterRace = num;
+    SetRaceStats();
+}
