@@ -57,8 +57,8 @@ void Character::SetRaceStats() {
             dexterity = 5;
             intelligence = 5;
             constitution = 9;
-            agility = 4;
-            wisdom = 8;
+            agility = 5;
+            wisdom = 7;
             luck = 3;
             break;
         case Lamia:

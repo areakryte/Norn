@@ -7,52 +7,48 @@
 #please bear with the choppiness for now. There's also a good bit of material to
 #cover so hopefully it won't be too boring hah.....
 
+# Lets do this right this time.
+Humans – Draining, Self-sufficient, Debuffs, Dot damage, Almost no taboos, Magically based
+Orcs – Regen, Defense, Sheer power, For the good of all, Aoe specialist
+Elves – Speed, Combo based teamwork, Toxins, Aspect of critter, Attack piercing
+
+
 *ROUGH DRAFT*
 -Reinholt (Humans)
-    From the bitter north to the warm and gracious southern farmlands, Reinholt is a
-land of moderates. Food is plentiful due to the vast plains and farmlands in the
-south. Every winter there are storms that cause the banks of the rivers to 
-overflow, causing the plains to flood with a relatively thin layer of water, but
-more importantly silt. As a result, the people in this region build their houses
-and grain silos on solid foundations that resist the rising waters every winter.
-North of these farmlands is a range of temperate forests, filled with hearty 
-maples, oaks, and wild walnut trees. As a result, the land here is perfect for 
-the many orchards that dot this area. With the addition of fruit in this region
-comes the many apiaries and breweries that also found in this country. Next is 
-the region of highlands that serve as additional farmlands. Since there is no 
-seasonal flooding in this area, the highlands serve as grazing grounds for the 
-cattle in the area. Lastly there are the pine forests to the mountains in the 
-north. Typically this region is ignored as it is on the border of Etterd, their
-Orcish neighbors. The winters here are harsher, and the soil rocky. The only 
-purpose this region servers is as a source of metals for the other cities to the
-south.
-    The people of region may have different styles of dress and different 
-traditions, but generally they have the same religious beliefs. Their faith is
-almost akin to that of a polytheistic church, but structured. They believe in 
-the three sisters of creation, the ones who defended the people from a false god
-of madness. First there is Lithie who represents the concept of truth and 
-foresight. Crows and ravens are her symbol and the people who follow her 
-typically have clothing with black feathers either emblazoned on or actual black
-feathers. Second there is Nekene who represents service and restoration as well
-as the aspect of magic. Her symbol is that of a black flame and the legends 
-state that as her signature spell, the fires of the void, would actually take in
-all light, leaving their enemies blind and helpless. Thirdly there is Khylessia
-who represents protection and strength. The wolf is her symbol and this is 
-usually demonstrated by fangs or claw on clothing. Again, the symbols within 
-this nation typically are black, but then are highlighted in silver, icy 
-blues and whites. Then there is the fallen one, Nimrael. People avoid mentioning
-her by name and her symbol is the open eye. She is treated as a sister who grew
-to proud to stand by her kin, and threatened the world with her plots and 
-schemes. If she is depicted, her colors are gold, red and white. It is said that
-upon uttering her name, her gaze would fall upon the speaker and curse him with
-madness.
-    Because of the wide range of temperatures in the region, there is a wide
-variety of clothing in the nation. The people in the north dress with more furs
-as typically, the winters make it a necessity. The southerners have more cloth
-and boots that can resist the heavy rains that come about the winters. Since the
-summers are generally mild, there are a good array of short sleeves, although
-there have records of relatively cold summers as well, which necessitate the 
-constant use of longer sleeves and pants within the region.
+    A wasteland with little to no food fit for normal consumption is one of the 
+best ways to describe Reinholt. The toxic water from the barrens flows into a 
+depression on the more eastern point of the land, creating noxious swamp which 
+happens to be filled with a variety of different diseases and toxins. Then land 
+then drops off into a sheer cliff in which the water runs off into a dense 
+forest where light rarely shines onto the forest floor. Here the wild life preys
+upon each other, humans included. There is no dominant predator and the dead 
+are eaten without hesitation. As the water runs westward, the land then takes on
+a starling change. The ground gives ways to spires of natural rock and the 
+trees all but vanish. Instead vines that rip and crush appear, climbing the 
+spires and perched on top of the spires are bushes that have a plethora of 
+thorns guarding their fruits and flowers, which many a traveler have died 
+attempting to reach.  The most westward point of the land then breaks apart into
+a marsh, and it is here the food is the richest and yet plagued with toxins and
+disease. 
+    Because the land is so adverse, the humans of this region have developed in 
+rather unique ways. They believe in three goddess (Nekene, Lithie, Khylessia) 
+that ruled the lands eons ago, and that that the three races lived in relative 
+unity. Then the Adversary came, and deceived them all. They claim that the dark 
+one came to the goddesses in the guise of a traveler needing help, and in the 
+end stole their might, magic, and foresight. Then as the goddesses grew weak, 
+the Adversary turned their own gifts against them and the goddesses were slain. 
+To remind themselves of their own failures, the people carry a sigil of the 
+fallen goddesses on their persons at all times. Typically it is a medallion 
+made of silver with an image of three broken pillars .It is because of this 
+legend, the people are a very insular, relying upon themselves for most issues.
+    Since the people of the land are mostly tied to the legend, their clothing 
+has a general rule of threes. They may have the hanging part of their armor 
+split into three parts and they generally use the colors of black, silver, and 
+white. Because of the cliff like nature of their homeland, and the scarcity of 
+food, many of the people have developed wraithlike tendencies. This allows them 
+to drain life out of other living creatures and in return, they feed less. They 
+have a resistance to the toxins, but not an immunity. People who are truly 
+immune to the toxins of their land are rare.
 
 -Sycurose (Elves)
 Sycurose is a land of extreme turbulence when speaking of the weather and as 
