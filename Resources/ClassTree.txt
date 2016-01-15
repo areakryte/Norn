@@ -1,25 +1,25 @@
 ================================
 # Reinholt (Humans)
 ================================
-            |-- Witch*
+            |-- Valkyrie*
             |
             |
-Cleric -----|-- Priest
+Neophyte ---|-- Witch
             |
             |
-            |-- Paladin
+            |-- Dullahan
             |
             |
-Swordsmen --|-- Knight
+Swordsmen --|-- Reaver
             |
             |
-            |-- Duelist
+            |-- Stalker
             |
             |
-Gunner -----|-- Riflemen
+Bowmen -----|-- Pulser
             |
             |
-            |-- Cannoneer
+            |-- Banshee
 ================================
 # Sycurose (Elves)
 ================================
@@ -54,16 +54,16 @@ Shaman -----|-- Sage
             |-- Druid
             |
             |
-Warrior ----|-- Berserker
+Warrior ----|-- Bulwark
             |
             |
             |-- Ranger
             |
             |
-Bowmen -----|-- Trapper
+Gunner -----|-- Riflemen
             |
             |
-            |-- Stinger 
+            |-- Trapper 
 ================================
 # Barrens (Really hard bonus)
 ================================

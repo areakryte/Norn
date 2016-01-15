@@ -35,31 +35,31 @@ void Character::SetRaceStats() {
     switch(characterRace)
     {
         case Elf:
-            strength = 4;
+            strength = 5;
             dexterity = 7;
             intelligence = 7;
             constitution = 5;
             agility = 9;
             wisdom = 5;
-            luck = 5;
+            luck = 4;
             break;
         case Human:
             strength = 7;
-            dexterity = 6;
-            intelligence = 7;
+            dexterity = 5;
+            intelligence = 9;
             constitution = 7;
-            agility = 6;
+            agility = 5;
             wisdom = 6;
             luck = 3;
             break;
         case Orc:
-            strength = 9;
+            strength = 8;
             dexterity = 5;
             intelligence = 5;
             constitution = 9;
             agility = 4;
-            wisdom = 9;
-            luck = 1;
+            wisdom = 8;
+            luck = 3;
             break;
         case Lamia:
             strength = 7;
