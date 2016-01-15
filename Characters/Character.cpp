@@ -47,9 +47,9 @@ void Character::SetRaceStats() {
             strength = 7;
             dexterity = 5;
             intelligence = 9;
-            constitution = 7;
-            agility = 5;
-            wisdom = 6;
+            constitution = 6;
+            agility = 7;
+            wisdom = 5;
             luck = 3;
             break;
         case Orc:
